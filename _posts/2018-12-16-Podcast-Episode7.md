@@ -5,8 +5,7 @@ date:   2018-11-16 22:00:00 +0000
 categories: Podcast
 tags: [podcast,configmgr,powershell,applocker,aovpn,bitlocker]
 ---
-It's laned: The Secret Diary of a Network Administrator Episode 7.
-
+It's landed: The Secret Diary of a Network Administrator Episode 7.
 In this episode I talk about the great enjoyment I had upgrading ConfigMgr to current branch as well as AppLocker, AlwaysOnVPN and a funny BitLocker story.
 
 As usual, you can follow me on Twitter: @OzThe2 and check out anything on My GitHub account: https://github.com/OzThe2
