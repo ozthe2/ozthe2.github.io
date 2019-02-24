@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "ConfigMgr-How-to-Deploy-Mimecast"
+title:  "ConfigMgr: How to Deploy Mimecast using PowerShell"
 date:   2018-10-12 22:00:00 +0000
 categories: ConfigMgr
 ---
