@@ -32,7 +32,7 @@ header_pages:
   - podcasts.md
   - about.md
 
-paginate: 5
+paginate: 8
 
 # Build settings
 markdown: kramdown
