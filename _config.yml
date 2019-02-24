@@ -27,6 +27,7 @@ disqus:
 
 show_excerpts: true
 permalink: pretty
+timezone: Europe/London
 
 header_pages:  
   - podcasts.md
