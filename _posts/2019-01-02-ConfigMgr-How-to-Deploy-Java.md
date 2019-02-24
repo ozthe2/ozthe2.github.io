@@ -22,7 +22,7 @@ Then, for the Installation Program field in ConfigMgr use the following:
 powershell.exe -executionpolicy bypass -file .\JavaVersionManagement.ps1
 ```
 
-![](../assets/images/javainstall.png)
+![](/assets/images/javainstall.png)
 
 And season with whatever detection rule you wish to use.  I normally use the Java.exe version number.  In my case I detect both the 32 and 64 bit versions of Java.exe to signify a successful deployment:
 
