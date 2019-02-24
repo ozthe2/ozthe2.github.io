@@ -7,21 +7,24 @@ tags: [configmgr,powershell,deployment]
 ---
 If you want to know how I deployed WiFi profiles to all users using ConfigMgr and PowerShell then you will want to read this post.
 
-If, like me, you want to deploy WiFi profiles to your Windows 10 clients using ConfigMgr, you may decide to try the WiFi Profiles node found under Assets and Compliance in the SCCM console as shown below:
+If, like me, you want to deploy WiFi profiles to your Windows 10 clients using ConfigMgr, you may decide to try the WiFi Profiles node found under Assets and Compliance in the ConfigMgr console as shown below:
 
 ![SCCM-WiFi-Prof1](/assets/images/SCCM-WiFi-Prof1.png)
 
-And if, like me, you are not using certificates, but instead use passwords for wifi access, you may think about exporting your existing WiFi profiles and importing the xml as shown below:
+And if, like me, you are not using certificates, but instead use passwords for WiFi access, you may think about exporting your existing WiFi profiles and importing the xml as shown below:
 
 ![SCCM-WiFi-Prof2](/assets/images/SCCM-WiFi-Prof2.png)
 
 To view existing WiFi profiles:
+
 `netsh wlan show profiles`
 
-Then To Export a specific WiFi Profile to an xml file to import into SCCM:
+Then To Export a specific WiFi Profile to an xml file to import into ConfigMgr:
+
 `netsh wlan export profile "type_profile_name_here" key=clear folder=c:\wifi`
 
 Or to export all WiFi profiles into separate xml files:
+
  `netsh wlan export profile key=clear folder="c:\ohtemp\wifiprofiles"`
 
 You can then deploy this profile to computers as you see fit - it ends up as a compliance item and it works perfectly.
@@ -33,14 +36,16 @@ When I tried it, it created the WiFi profile in the current logged on user conte
 To rectify this, I wrote a PowerShell script and deployed the script using the Application method to my computers.  This deployed the WiFi profile to 'All Users' and thus would connect when sat at the login prompt. Excellent.
 
 ### How to use the script:
-It's pretty simple to use and it creates a registry key that can be used as a detection rule in the SCCM application.
+It's pretty simple to use and it creates a registry key that can be used as a detection rule in the ConfigMgr application.
 
-You will need to place the script and the exported xml files (created by the netsh commands as mentioned above) in the same folder wherever you normally store your source files for SCCM:
+You will need to place the script and the exported xml files (created by the netsh commands as mentioned above) in the same folder wherever you normally store your source files for ConfigMgr:
+
 ![Files](/assets/images/Files.png)
 
 Then, create a new application, and choose 'Manual' etc etc then Script Installer for the deployment type.
 
 For the 'Installation Program' use the following:
+
 `powershell.exe -executionpolicy bypass -command "& {. .\New-OHWiFiProfile.ps1; new-ohwifiprofile -DeploymentVersion 1 }"`
 
 ![InstallPRog](/assets/images/InstallPRog.PNG)
