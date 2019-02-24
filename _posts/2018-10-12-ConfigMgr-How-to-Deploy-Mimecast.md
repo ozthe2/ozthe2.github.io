@@ -4,7 +4,7 @@ title:  "ConfigMgr: How to Deploy Mimecast using PowerShell"
 date:   2018-10-12 22:00:00 +0000
 categories: ConfigMgr
 ---
-If you want to know how I deployed the Mimecast plugiung using ConfigMgr and PowerShell then you will want to read this post...
+If you want to know how I deployed the Mimecast plugin using ConfigMgr and PowerShell then you will want to read this post...
 
 Today I had to make the new Mimecast for Outlook plugin available in the Application Catalogue.
 
