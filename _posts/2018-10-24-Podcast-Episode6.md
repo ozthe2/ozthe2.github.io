@@ -3,7 +3,7 @@ layout: post
 title:  "Podcast: The Secret Diary of a Network Administrator - Episode 6"
 date:   2018-10-24 22:00:00 +0000
 categories: Podcast
-tags: [podcast,configmgr,powershell,applocker,aovpn,bitlocker]
+tags: [podcast,configmgr,powershell,directaccess,plaster]
 ---
 Episode 6 of The Secret Diary of a Network Administrator available from all good Podcast outlets!
 In this episode, among other things, I talk about why I hate ConfigMgr as well as a couple of strange Direct Access issues, and how I became the Master of Plaster!
