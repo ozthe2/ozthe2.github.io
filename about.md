@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a network admin for a global company specialising in air chartering.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Microsoft Active Directory, PowerShell and SCCM are the tools of my trade whilst the ESP KH-2 NTB, Marshall JCM2000 and various effects pedals are my tools of play.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+The bands I really enjoy listening to are Exodus, Slayer, Metallica, Anthrax, Megadeth, W.A.S.P, Joe Satriani and Yngwie Malmsteen.
+
+![](/assets/images/MCSA_Office365_Blk.png) ![](/assets/images/mcse.jpg) ![](/assets/images/MCP_2013rgb_1519.png) ![](/assets/images/mcne.jpg)
+
+![](/assets/images/ESP-KH-2-NTB.jpg)
 
 
-[jekyll-organization]: https://github.com/jekyll
