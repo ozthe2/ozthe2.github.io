@@ -20,6 +20,10 @@ Then, for the Installation Program field in ConfigMgr use the following:
 
 {% highlight powershell linenos %}
 powershell.exe -executionpolicy bypass -file .\JavaVersionManagement.ps1
+
+foreach ($monkey in $zoo) {
+    write-output "Hello
+}
 {% endhighlight %}
 
 ![](/assets/images/javainstall.png)
