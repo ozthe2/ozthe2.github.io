@@ -18,12 +18,8 @@ To do this, I used my Invoke-ApplicationRemoval script with extra added sauce to
 All you need to do is to create a new Application in ConfigMgr and choose to make it of type: Script Installer.  
 Then, for the Installation Program field in ConfigMgr use the following:
 
-{% highlight powershell linenos %}
+{% highlight powershell %}
 powershell.exe -executionpolicy bypass -file .\JavaVersionManagement.ps1
-
-foreach ($monkey in $zoo) {
-    write-output "Hello
-}
 {% endhighlight %}
 
 ![](/assets/images/javainstall.png)
