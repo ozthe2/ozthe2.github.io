@@ -13,7 +13,7 @@ In the same podcast, I also opined the virtues of using PowerShell to deploy app
 
 Today I wanted to remove all installed versions of Java and then install both the 32bit and 64bit versions of the latest Java version using ConfigMgr.
 
-To do this, I used my Invoke-ApplicationRemoval script with extra added sauce to install both versions of Java as well.  [You can find the script here.](https://github.com/ozthe2/Powershell/blob/master/SCCM/JavaVersionManagement.ps1) It's called JavaVersionManagement.ps1. 
+To do this, I used my Invoke-ApplicationRemoval script with extra added sauce to install both versions of Java as well.  [You can find the script here.](https://github.com/ozthe2/Powershell/blob/master/SCCM/JavaVersionManagement.ps1) It's called *JavaVersionManagement.ps1*. 
 
 All you need to do is to create a new Application in ConfigMgr and choose to make it of type: Script Installer.  
 Then, for the Installation Program field in ConfigMgr use the following:
