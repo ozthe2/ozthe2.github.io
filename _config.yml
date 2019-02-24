@@ -32,6 +32,8 @@ header_pages:
   - podcasts.md
   - about.md
 
+paginate: 5
+
 # Build settings
 markdown: kramdown
 theme: minima
