@@ -28,9 +28,9 @@ disqus:
 show_excerpts: true
 
 
-header_pages:
-  - about.md
+header_pages:  
   - portfolio.md
+  - about.md
 
 # Build settings
 markdown: kramdown
