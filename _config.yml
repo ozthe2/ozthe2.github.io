@@ -33,7 +33,7 @@ header_pages:
   - about.md
 
 paginate: 5
-
+highlighter: rouge
 # Build settings
 markdown: kramdown
 theme: minima
