@@ -13,7 +13,7 @@ sitemap: false
             {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
             {% if year != nyear %}
-            {% if forloop.index != 1 %}</ul>{% endif %}
+            {% if forloop.index != 1 %}{% endif %}
                 <h2>{{ post.date | date: '%Y' }}</h2>
             {% endif %}
         {% endunless %}
