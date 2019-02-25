@@ -24,7 +24,7 @@ sitemap: false
     {% if forloop.index != 1 %}</ul>{% endif %}
         <h2>{{ post.date | date: '%B %Y' }}</h2><ul>
     {% endif %}
-    
+
     {% if post.link %}
         <h3 class="link-post">
             <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
