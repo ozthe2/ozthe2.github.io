@@ -2,7 +2,7 @@
 layout: post
 title:  "ConfigMgr: How to Deploy Java using PowerShell"
 date:   2019-01-02 22:00:00 +0000
-categories: ConfigMgr
+categories: [Configmgr,Powershell,Deployment]
 tags: [configmgr,powershell,deployment]
 ---
 If you want to know how I deployed Java using ConfigMgr and PowerShell then you will want to read this post...
