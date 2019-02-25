@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Podcasts
-permalink: /podcasts/
+permalink: /Podcasts/
 ---
 
 # The Secret Diary of a Network Administrator

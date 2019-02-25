@@ -9,11 +9,11 @@ If you want to know how I deployed WiFi profiles to all users using ConfigMgr an
 
 If, like me, you want to deploy WiFi profiles to your Windows 10 clients using ConfigMgr, you may decide to try the WiFi Profiles node found under Assets and Compliance in the ConfigMgr console as shown below:
 
-![SCCM-WiFi-Prof1](/images/SCCM-WiFi-Prof1.png)
+![SCCM-WiFi-Prof1](/assets/images/SCCM-WiFi-Prof1.png)
 
 And if, like me, you are not using certificates, but instead use passwords for WiFi access, you may think about exporting your existing WiFi profiles and importing the xml as shown below:
 
-![SCCM-WiFi-Prof2](/images/SCCM-WiFi-Prof2.png)
+![SCCM-WiFi-Prof2](/assets/images/SCCM-WiFi-Prof2.png)
 
 To view existing WiFi profiles:
 
@@ -40,7 +40,7 @@ It's pretty simple to use and it creates a registry key that can be used as a de
 
 You will need to place the script and the exported xml files (created by the netsh commands as mentioned above) in the same folder wherever you normally store your source files for ConfigMgr:
 
-![Files](/images/Files.png)
+![Files](/assets/images/Files.png)
 
 Then, create a new application, and choose 'Manual' etc etc then Script Installer for the deployment type.
 
@@ -48,16 +48,16 @@ For the 'Installation Program' use the following:
 
 `powershell.exe -executionpolicy bypass -command "& {. .\New-OHWiFiProfile.ps1; new-ohwifiprofile -DeploymentVersion 1 }"`
 
-![InstallPRog](/images/InstallPRog.PNG)
+![InstallPRog](/assets/images/InstallPRog.PNG)
 
 And for the detection rule, simply detect the registry key and value that was used as the *DeploymentVersion* parameter:
 
-![Detection-Rule](/images/Detection-Rule.png)
+![Detection-Rule](/assets/images/Detection-Rule.png)
 
 If you add any profiles or change passwords simply update your xml files, change the parameter *DeploymentVersion* to a new unique number (I suggest going sequentially but whatever) and update the deployment.
 
 In the registry you will get something like this:
-![Registry](/images/Registry.png)
+![Registry](/assets/images/Registry.png)
 
 Feel free to change names and locations by adjusting the PowerShell code.
 
