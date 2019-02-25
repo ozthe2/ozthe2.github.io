@@ -11,7 +11,7 @@ tags: [directaccess]
 I was trying to add a new entry point to our Direct Access Multi-Site configuration and it failed with the error "The cmdlet did not run as expected."
 I also had a warning informing me that the DNS entry for the web probe could not be created and it should be created manually. (I think this warning was unrelated to the main issue of the entry point installation failing.)
 
-![](/assets/images/DAEntryPointErr.png)
+![](/images/DAEntryPointErr.png)
 
 ### The Solution:
 Our organisational Direct Access infrastructure was built on Microsoft Server 2012 R2.  

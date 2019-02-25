@@ -26,7 +26,7 @@ powershell.exe -executionpolicy bypass -file .\JavaVersionManagement.ps1
 
 And season with whatever detection rule you wish to use.  I normally use the Java.exe version number.  In my case I detect both the 32 and 64 bit versions of Java.exe to signify a successful deployment:
 
-![](/assets/images/JavaVersionDetection.png)
+![](/images/JavaVersionDetection.png)
 
 Ensure that you place the .ps1 and your extracted msi java file(s) in the same directory where you normally store your ConfigMgr source files.
 
