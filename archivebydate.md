@@ -13,16 +13,16 @@ sitemap: false
             {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
             {% if year != nyear %}
-            {% if forloop.index != 1 %}</ul>{% endif %}
-                <h2>{{ post.date | date: '%Y' }}</h2>
+            {% if forloop.index != 1 %}<ul>{% endif %}
+                <h2>{{ post.date | date: '%Y' }}</h2></ul>
             {% endif %}
         {% endunless %}
 
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
     {% if month != nmonth %}
-    {% if forloop.index != 1 %}</ul>{% endif %}
-        <h2>{{ post.date | date: '%B %Y' }}</h2><ul>
+    {% if forloop.index != 1 %}<ul>{% endif %}
+        <h2>{{ post.date | date: '%B %Y' }}</h2></ul>
     {% endif %}
 
 
