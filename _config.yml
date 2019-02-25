@@ -50,6 +50,7 @@ url: https://ozthe2.github.io
 baseurl: ""
 
 permalink: pretty
+timezone: Europe/London
 
 
 #
