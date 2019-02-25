@@ -2,7 +2,7 @@
 layout: post
 title:  "ConfigMgr: How to Deploy WiFi Profiles Using PowerShell"
 date:   2018-11-29 22:00:00 +0000
-categories: [Configmgr,Powershell,Deployment]
+categories: ConfigMgr
 tags: [configmgr,powershell,deployment]
 ---
 If you want to know how I deployed WiFi profiles to all users using ConfigMgr and PowerShell then you will want to read this post.
