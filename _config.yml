@@ -51,6 +51,9 @@ baseurl: ""
 
 permalink: pretty
 timezone: Europe/London
+header_pages:  
+  - podcasts.md
+  - about.md
 
 
 #
