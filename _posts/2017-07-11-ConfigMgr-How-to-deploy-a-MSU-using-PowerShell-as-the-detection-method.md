@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "ConfigMgr: How to deploy a MSU using PowerShell as the detection method"
-date:   2017-70-11 22:00:00 +0000
+date:   2017-07-11 22:00:00 +0000
 categories: ConfigMgr
 tags: [configmgr,powershell,deployment]
 ---
