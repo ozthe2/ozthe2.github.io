@@ -34,7 +34,7 @@ header_pages:
   - allposts.md
   - about.md
 
-paginate: 5
+paginate: 8
 highlighter: rouge
 # Build settings
 markdown: kramdown
