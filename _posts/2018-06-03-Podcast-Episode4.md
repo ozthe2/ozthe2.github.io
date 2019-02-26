@@ -1,9 +1,9 @@
 ﻿---
 layout: post
-title:  "Podcast: The Secret Diary of a Network Administrator - Episode 6"
-date:   2018-10-24 22:00:00 +0000
+title:  "Podcast: The Secret Diary of a Network Administrator - Episode 4"
+date:   2018-06-03 22:00:00 +0000
 categories: Podcast
-tags: [podcast,configmgr,powershell,directaccess,plaster]
+tags: [podcast,configmgr,powershell]
 ---
 Available now for your listening pleasure!
 
