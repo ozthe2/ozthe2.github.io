@@ -20,10 +20,10 @@ Ensure that cluster name object (CNO) is granted permissions to Secure DNS Zone.
 Here's a screenshot of the actual events:
 ![ClustErr-1257](/assets/images/ClustErr-1257.png)
 
-###The reason:
+### The reason:
 *Before* creating the cluster, I had pre-added the DNS 'A' record for the CNO that I would need using IPAM.
 
-###The solution:
+### The solution:
 I simply deleted the CNO 'A' record in DNS and recreated it, ensuring that when I did so, I ticked, "*Allow any authenticated user to update DNS record with the same owner name*"
 
 If you do not pre-create the CNO A record in DNS then you will not have this issue.
