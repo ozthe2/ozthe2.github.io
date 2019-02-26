@@ -8,7 +8,10 @@ tags: [branchcache,configmgr]
 
 This is part 1 of a 2 part post.  This part demonstrates how to install and configure BranchCache while [Part 2]({{ site.baseurl }}{% link _posts/2015-01-12-ConfigMgr-How-to-confirm-BranchCache-is-working.md %}) will demonstrate how to determine that BranchCache is actually working.
 
-Let's start by asking the question: **What is BranchCache?**
+Let's start by asking the question: 
+
+### What is BranchCache?
+
 Here's a description I took from the [Microsoft documentation](https://docs.microsoft.com/en-us/windows/deployment/update/waas-branchcache):
 
 > BranchCache is a bandwidth-optimization feature that has been available since the Windows Server 2008 R2 and Windows 7 operating systems. Each client has a cache and acts as an alternate source for content that devices on its own network request. Windows Server Update Services (WSUS) and System Center Configuration Manager can use BranchCache to optimize network bandwidth during update deployment, and it’s easy to configure for either of them. BranchCache has two operating modes: Distributed Cache mode and Hosted Cache mode.
