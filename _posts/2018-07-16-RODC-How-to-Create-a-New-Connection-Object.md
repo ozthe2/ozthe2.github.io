@@ -5,7 +5,7 @@ date:   2018-07-16 22:00:00 +0000
 categories: RODC
 tags: [rodc,connection]
 ---
-There may come a time whereby you will need to create a new connection object for your RODC's due to someone inadvertently deleting the existing one by mistake, or having to deliberately delete and recreate the connection object as in [my case](https://www.fearthepanda.com/repadmin/).
+There may come a time whereby you will need to create a new connection object for your RODC's due to someone inadvertently deleting the existing one by mistake, or having to deliberately delete and recreate the connection object as in [my case.]({{ site.baseurl }}{% link _posts/2018-07-12-RepAdmin-Warning-KCC-could-not-add-this-replica-link-due-to-error.md %}).
 
 Connection objects for RODC's require a quick 'tweak' in order to get them to function correctly.  If you don't, then they won't work.
 
