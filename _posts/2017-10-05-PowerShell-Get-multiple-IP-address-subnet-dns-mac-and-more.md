@@ -9,9 +9,9 @@ Isn’t it funny that the ‘Hello World’ of PowerShell, the Great Grand-Daddy
 
 We have many servers in over 30 countries and sometimes you need to very quickly get disk info, or IP info or..you get the idea.  Well, today was the straw that broke the camels back as they say and I decided to write my own ‘Hello World!’  One of the requirements we had was to report multiple IP addresses \ network info which this script does.
 
-Its very imaginatively entitled, ‘Get-OHComputerInfo’
+Its very imaginatively entitled, *Get-OHComputerInfo*
 
-You can also pipe to it – great for ```Get-ADComputer | Get-OHComputerInfo``` type fun.  Try piping it to ```Export-CSV``` or ```Out-Gridview``` for a quick and crude method of documenting your servers!
+You can also pipe to it; great for ```Get-ADComputer | Get-OHComputerInfo``` type fun.  Try piping it to ```Export-CSV``` or ```Out-Gridview``` for a quick and crude method of documenting your servers!
 
 I've put the whole thing in a module called *OHTools* as I can then add other 'tools' to it as and when I get around to it.  It's currently on version 1.4 and has 100% code coverage with Pester - although there's certainly room for more tests!
 
