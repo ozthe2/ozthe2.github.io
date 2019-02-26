@@ -5,6 +5,7 @@ date:   2018-01-21 22:00:00 +0000
 categories: Podcast
 tags: [podcast,configmgr,powershell,directaccess,plaster]
 ---
+## DFS and 'Be the Master' Book Review
 In this episode I talk about our office in Poland having a complete disaster, my love-hate relationship with DFS-r and I give my take on the book '[Be the Master](https://leanpub.com/bethemaster)' by [Don Jones](https://donjones.com/).
 
 As usual, you can follow me on Twitter: [@OzThe2](https://twitter.com/ozthe2) and check out anything on My GitHub account: [https://github.com/OzThe2](https://github.com/OzThe2)
