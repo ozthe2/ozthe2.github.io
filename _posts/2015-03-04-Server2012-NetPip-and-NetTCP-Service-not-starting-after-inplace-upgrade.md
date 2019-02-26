@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "server2012r2: Net.Pipe and Net.Tcp Service Not Starting After In-Place Upgrade to Server 2012R2"
+title:  "Server2012R2: Net.Pipe and Net.Tcp Service Not Starting After In-Place Upgrade to Server 2012R2"
 date:   2015-03-04 22:00:00 +0000
 categories: Server2012R2
 tags: [server2012, Server2012r2, server2008, server2008r2, upgrade]
