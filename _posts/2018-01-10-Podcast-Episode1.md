@@ -5,8 +5,8 @@ date:   2018-01-10 22:00:00 +0000
 categories: Podcast
 tags: [podcast, configmgr, powershell, dfs]
 ---
-## SCCM & DFS Woes
-Episode 1 of “The Secret Diary of a Network Administrator” is now available to listen to and is about the things I’ve been up to at work along with reviews of related books, software etc.
+
+Episode 1 of “The Secret Diary of a Network Administrator: SCCM & DFS Woes” is now available to listen to and is about the things I’ve been up to at work along with reviews of related books, software etc.
 
 I plan on releasing the podcast on an irregular, regular basis.  So may be every week, then every 2 weeks, perhaps a couple of months or more will go by.  We're all busy, right!  But it will be done, and they will be short but sweet sound-bites - no need to commit an hour or two - just a few minutes long each. 
 
