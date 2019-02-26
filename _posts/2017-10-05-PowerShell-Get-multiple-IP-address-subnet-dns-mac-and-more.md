@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "PowerShell - Get Multiple IP Address, Subnet, DNS, MAC and more"
+title:  "PowerShell: Get Multiple IP Address, Subnet, DNS, MAC and more"
 date:   2017-10-05 22:00:00 +0000
 categories: PowerShell
 tags: [powershell, posh]

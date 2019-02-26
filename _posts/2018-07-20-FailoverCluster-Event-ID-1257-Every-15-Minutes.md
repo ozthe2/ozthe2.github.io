@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Failover Cluster -  Event ID 1257 every 15 minutes"
+title:  "Failover Cluster: Event ID 1257 every 15 minutes"
 date:   2018-07-20 22:00:00 +0000
 categories: FailoverCluster
 tags: [failovercluster, cluster, 1257]

@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Failover Cluster - Error 0x800703eb when creating File Server role"
+title:  "Failover Cluster: Error 0x800703eb when creating File Server role"
 date:   2018-09-16 22:00:00 +0000
 categories: FailoverCluster
 tags: [failovercluster, cluster, 0x800703eb]

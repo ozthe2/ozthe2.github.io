@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Azure Backup Server - Not Backing Up to Azure on New Install"
+title:  "Azure Backup Server: Not Backing Up to Azure on New Install"
 date:   2018-05-13 22:00:00 +0000
 categories: AzureBackupServer
 tags: [azurebackupserver]

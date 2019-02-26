@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "REPADMIN - Warning: KCC could not add this REPLICA LINK due to error"
+title:  "REPADMIN: Warning: KCC could not add this REPLICA LINK due to error"
 date:   2018-07-12 22:00:00 +0000
 categories: RepAdmin
 tags: [repadmin,kcc,replica,error]
