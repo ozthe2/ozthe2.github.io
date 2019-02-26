@@ -22,18 +22,15 @@ I've put the whole thing in a module called *OHTools* as I can then add other 't
 
 It is also in the [PowerShell gallery](https://www.powershellgallery.com/packages/OHTools/1.3) so if you have PowerShell 5 you can install by simply typing: 
 
-```
+```powershell
 install-module ohtools
 ```
 
 and update to newer releases with:
-```
+```powershell
 update-module ohtools
 ```
 
 To see the available cmdlets and version number:
-```
+```powershell
 get-command -module ohtools
-```
-
-
