@@ -6,7 +6,7 @@ categories: ConfigMgr
 tags: [branchcache,configmgr]
 ---
 
-This is part 1 of a 2 part post.  This part demonstrates how to install and configure BranchCache while [Part 2]({{ site.baseurl }}{% link _posts/2015-01-12-ConfigMgr-How-to-confirm-BranchCache-is-working.md %}) will demonstrate how to determine that BranchCache is actually working.
+This is part 1 of a two part post.  This part demonstrates how to install and configure BranchCache while [Part 2]({{ site.baseurl }}{% link _posts/2015-01-12-ConfigMgr-How-to-confirm-BranchCache-is-working.md %}) will demonstrate how to determine that BranchCache is actually working.
 
 Let's start by asking the question: 
 
