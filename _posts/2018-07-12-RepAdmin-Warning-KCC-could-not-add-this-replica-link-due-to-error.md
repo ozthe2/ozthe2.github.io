@@ -11,10 +11,10 @@ This morning, looking through one of the logs, I noticed a couple of errors.
 
 The report was the output from `repadmin /showrepl *` and here is a sample of the error which I received relating to two of our RODC's:
 
-![1-2](/content/images/2018/07/1-2.JPG)
+![1-2](/assets/images/1-2.JPG)
 
 
-##The Solution
+## The Solution
 Although it looks drastic, the fix is actually quite easy:
 
 I deleted the connection object in *Sites and Services* for the server in question and recreated it.
