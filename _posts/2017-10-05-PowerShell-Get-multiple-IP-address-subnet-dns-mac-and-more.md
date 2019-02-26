@@ -11,7 +11,7 @@ We have many servers in over 30 countries and sometimes you need to very quickly
 
 Its very imaginatively entitled, ‘Get-OHComputerInfo’
 
-You can also pipe to it – great for ‘get-adcomputer | get-OHcomputerinfo’ type fun.  Try piping it to export-csv or out-gridview for a quick and crude method of documenting your servers!
+You can also pipe to it – great for ```Get-ADComputer | Get-OHComputerInfo``` type fun.  Try piping it to ```Export-CSV``` or ```Out-Gridview``` for a quick and crude method of documenting your servers!
 
 I've put the whole thing in a module called *OHTools* as I can then add other 'tools' to it as and when I get around to it.  It's currently on version 1.4 and has 100% code coverage with Pester - although there's certainly room for more tests!
 
