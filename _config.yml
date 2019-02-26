@@ -31,6 +31,7 @@ timezone: Europe/London
 
 header_pages:  
   - archivebycategory.md
+  - allposts.md
   - about.md
 
 paginate: 5
