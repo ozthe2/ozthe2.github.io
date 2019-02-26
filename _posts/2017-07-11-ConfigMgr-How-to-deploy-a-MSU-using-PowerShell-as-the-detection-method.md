@@ -3,7 +3,7 @@ layout: post
 title:  "ConfigMgr: How to deploy a MSU using PowerShell as the detection method"
 date:   2017-07-11 22:00:00 +0000
 categories: ConfigMgr
-tags: [configmgr,powershell,deployment]
+tags: [configmgr, powershell, deployment]
 ---
 I have documented my approach on using PowerShell as a detection clause when deploying MSU files as it's something that I have done many times but never blogged the process.
 
