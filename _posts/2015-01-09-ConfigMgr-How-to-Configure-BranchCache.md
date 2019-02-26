@@ -11,7 +11,7 @@ This is part 1 of a 2 part post.  This part demonstrates how to install and conf
 Let's start by asking the question: **What is BranchCache?**
 Here's a description I took from the [Microsoft documentation](https://docs.microsoft.com/en-us/windows/deployment/update/waas-branchcache):
 > BranchCache is a bandwidth-optimization feature that has been available since the Windows Server 2008 R2 and Windows 7 operating systems. Each client has a cache and acts as an alternate source for content that devices on its own network request. Windows Server Update Services (WSUS) and System Center Configuration Manager can use BranchCache to optimize network bandwidth during update deployment, and it’s easy to configure for either of them. BranchCache has two operating modes: Distributed Cache mode and Hosted Cache mode.
-> 
+
 And for further clarification, this is is also from the [Microsoft documentation](https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/gg682077(v=technet.10)):
 > Windows BranchCache is integrated in System Center 2012 Configuration Manager. You can configure the BranchCache settings on a deployment type for applications, on the deployment for a package, and for task sequences.
 > 
