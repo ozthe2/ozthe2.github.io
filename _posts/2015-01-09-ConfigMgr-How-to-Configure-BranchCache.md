@@ -29,8 +29,8 @@ Now we know what we are talking about, here is my approach on how I implemented 
 Today I configured one of our smaller branch offices to use BranchCache with ConfigMgr for application deployment.
 
 As usual, I started by reading through official Microsoft documentation to give myself a good grounding:
-http://technet.microsoft.com/en-us/library/gg682077.aspx
-http://technet.microsoft.com/en-us/library/dd637820%28v=ws.10%29.aspx
+- [http://technet.microsoft.com/en-us/library/gg682077.aspx](http://technet.microsoft.com/en-us/library/gg682077.aspx)
+- [http://technet.microsoft.com/en-us/library/dd637820%28v=ws.10%29.aspx](http://technet.microsoft.com/en-us/library/dd637820%28v=ws.10%29.aspx)
 
 ### 1. 
 The first thing I did was to enable Branchcache on the distribution point.  To do this, right-click the Distribution point and select properties:
