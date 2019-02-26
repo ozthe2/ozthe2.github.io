@@ -11,7 +11,7 @@ Searching the Internet (why re-invent the wheel eh?) only gave me a couple of re
 
 Here is the main post that I used as a reference: http://www.itninja.com/question/user-state-migration-tool-1
 
-The reason it failed was that the detection rule path in *migapp.xml* (referred to in the above link) was failing. When I installed Chrome on my system, the registry key *HKLM\SOFTWARE\Wow6432Node\Google\Chrome* that is being detected did not exist:
+The reason it failed was that the detection rule path in *migapp.xml* (referred to in the above link) was failing. When I installed Chrome on my system, the registry key ```HKLM\SOFTWARE\Wow6432Node\Google\Chrome``` that is being detected did not exist:
 
 ![g1](/assets/images/g1.PNG)
 
