@@ -6,7 +6,7 @@ categories: ConfigMgr
 tags: [branchcache,configmgr]
 ---
 
-This is part 2 of a two part post.  In [part one](https://www.fearthepanda.com/sccm-how-to-configure-branchcache/) I explained how I configured BranchCache on my SCCM distribution point.
+This is part 2 of a two part post.  In [Part 1]({{ site.baseurl }}{% link _posts/2015-01-09-ConfigMgr-How-to-Configure-BranchCache.md %}) I explained how I configured BranchCache on my SCCM distribution point.
 
 This post will demonstrate the methods I used to prove that computers at my branch office were actually using a locally cached version of the application to install from.
 
