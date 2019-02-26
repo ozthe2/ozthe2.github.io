@@ -8,8 +8,9 @@ sitemap: false
 {% for category in site.categories | sort %}
   <h3>{{ category[0] }}</h3>
   <ul>
-    {% for post in category[1] %}
+    {% for post in category[1] | sort %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
+
