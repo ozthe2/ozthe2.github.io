@@ -5,7 +5,7 @@ date:   2015-06-26 22:00:00 +0000
 categories: PowerShell
 tags: [powershell, posh, applocker, eventlogs]
 ---
-This post is for my reference although if you stumble upon it and find it useful then cool!
+If you want to know how I queried AppLocker event logs using PowerShell then you will want to read this post.
 
 I have configured AppLocker to run in ‘Audit’ mode and wanted a quick method of seeing what would be blocked without having to log on to individual computers and checking the event logs.
 
