@@ -7,7 +7,7 @@ tags: [configmgr,powershell,deployment]
 ---
 If you want to know how I deployed Java using ConfigMgr and PowerShell then you will want to read this post...
 
-In my last podcast I spoke about a PowerShell script that I wrote that uninstalls all instances that it can find of msiexec installed applications.   I called this script Invoke-ApplicationRemoval and you can find it in my [Github repo here.](https://github.com/ozthe2/Powershell/blob/master/SCCM/Invoke-ApplicationRemoval)
+In my [last podcast]({{ site.baseurl }}{% link _posts/2018-12-16-Podcast-Episode7.md %}) I spoke about a PowerShell script that I wrote that uninstalls all instances that it can find of msiexec installed applications.   I called this script Invoke-ApplicationRemoval and you can find it in my [Github repo here.](https://github.com/ozthe2/Powershell/blob/master/SCCM/Invoke-ApplicationRemoval)
 
 In the same podcast, I also opined the virtues of using PowerShell to deploy applications using Config Manager.
 
