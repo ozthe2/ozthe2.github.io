@@ -1,3 +1,10 @@
+---
+layout: page
+title: Post by Category
+permalink: /categoryview/
+sitemap: false
+---
+
 {% comment %}
 #
 #  Change date order by adding '| reversed'
