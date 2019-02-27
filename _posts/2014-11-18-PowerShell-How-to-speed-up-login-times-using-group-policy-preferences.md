@@ -6,6 +6,8 @@ categories: PowerShell
 tags: [powershell, posh, gpp, login, grouppolicy]
 ---
 
+If you want to know how I significantly reduced login times using PowerShell and Group Policy then you will want to read this post.
+
 If you're anything like me, Group Policy preferences revolutionised the way I achieved things.  They seemed to answer a lot of our prayers as Admins and simplified a lot of tasks that otherwise would have been painful and \ or convoluted to implement.
 
 One of the changes I made at my workplace was to deploy our printers using the new Group Policy User Preference item: Printers

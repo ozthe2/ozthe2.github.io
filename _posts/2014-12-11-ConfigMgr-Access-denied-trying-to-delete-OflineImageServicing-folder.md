@@ -6,6 +6,8 @@ categories: ConfigMgr
 tags: [configmgr, dism]
 ---
 
+ConfigMgr - If you are trying unsuccessfully to delete the OfflineImageServicing folder then you will want to read this.
+
 Last week I tried to incorporate some updates into our image. (Right-click the image -> Schedule Updates) Unfortunately the process failed (That’s a story for another post!) and left a temporary directory behind that had around 8Gb+ of files behind.  This was space that I needed to claw back!  The temporary directory used is the staging directory and can be found in the root drive of your CCM installation in a folder called: *ConfigMgrOfflineImageServicing*
 
 When you try and manually delete this, you are presented with the following error:

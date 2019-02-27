@@ -6,6 +6,8 @@ categories: ConfigMgr
 tags: [configmgr, powershell, posh, ccmcache]
 ---
 
+If you would like to deploy a CCMCache size change to computers using ConfigMgr and PowerShell then you will want to read this step-by-step guide..…
+
 I recently needed to change the CCMCache size on a few hundred computers and this was my approach to doing it via an SCCM application deployment using a PowerShell script to make the cache size change.
 
 This post may seem daunting, but I can assure you that you do not need to understand PowerShell if you follow this guide.  Take the time to read it slowly in the order presented and you will have it licked in no time.
