@@ -9,6 +9,7 @@ tags: [configmgr, tasksequence, usmt]
 If you are using USMT in your SCCM task sequence and receive error 0x00004005 when it requests the state store, then you will want to read this.
 
 Here’s a strange one that took me a while to figure out.  I was incorporating USMT into a new task sequence and it kept failing right at the start of the USMT section: ‘Request State Store’ where it would hang for a couple of minutes until it timed out and presented me with the error: 0x00004005
+
 ![1-8](/assets/images/1-8.PNG)
 
 I checked the *smsts.log* on the client computer and could see where it had tried the computer account and failed on credentials (as expected), and then said that it was about to try the Network Access account.  When it did so, it showed the error: ‘Cannot connect to *http//servername SMP root share.*‘  No mention of credentials being wrong.
