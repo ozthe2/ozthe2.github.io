@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "PowerShell: How to determine which DNS records are Tombstoned"
-date:   2015-11-05 22:00:00 +0000
+date:   2014-11-05 22:00:00 +0000
 categories: PowerShell
 tags: [powershell, posh, dns. tombstone]
 ---
