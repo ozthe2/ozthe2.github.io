@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "ConfigMgr: OSD task sequence fails with error 0x80091007"
+title:  "ConfigMgr: OSD Task Sequence Fails with Error 0x80091007"
 date:   2012-11-09 22:00:00 +0000
 categories: ConfigMgr
 tags: [configmgr, tasksequence]
