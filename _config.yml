@@ -18,7 +18,7 @@ title: Fear the Panda
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about all things I.T, PowerShell, ConfigMgr and other interesting things I stumble upon.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ozthe2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fearthepanda.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ozthe2
 github_username:  ozthe2
 
