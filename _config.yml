@@ -34,6 +34,8 @@ header_pages:
   - allposts.md
   - about.md
 
+google_analytics: UA-97308080-2  
+
 paginate: 8
 highlighter: rouge
 # Build settings
