@@ -9,8 +9,7 @@ If you want to know how I used task scheduler to run the AOVPN VPM_Profile.ps1 s
 
 I am in the middle of a migration project from Direct Access to Microsoft Always on VPN and so far it's going really well.  Both VPN solutions are running side-by-side until I complete the user migration.
 
-In my early days of testing though, I was working from home and wanted to test all of the tweaks and fine-tune adjustements to my VPN_Profile.ps1 script without having to deploy from Configuration Manager each time.  (Some of the tweaks I was testing included adding routing, configuring NPS failover and certificate filtering and will become blog posts in their own right soon.)
-
+In my early days of testing though, I was working from home and wanted to test all of the tweaks and fine-tune adjustements to my VPN_Profile.ps1 script without having to deploy from Configuration Manager each time.  (Some of the tweaks I was testing included adding routing, configuring NPS failover and certificate filtering and these will become blog posts in their own right soon.)
 
 ### Non-Admin account?  No Problem.
 My test user account did not have any local or domain administrator priviliges and I needed a method of quickly redeploying the tweaked VPN_Profile in order to test the new configuration.
