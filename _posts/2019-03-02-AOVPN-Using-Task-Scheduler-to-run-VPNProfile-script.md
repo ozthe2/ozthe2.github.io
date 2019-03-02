@@ -47,11 +47,11 @@ Essentially the following adjustments need to be made:
 
 ### Step 4: Create a Scheduled Task
 
-1. Whilst logged in as your test user account, open Task Scheduler using an account with local admin rights.
+1.  Whilst logged in as your test user account, open Task Scheduler using an account with local admin rights.
 
 ![](/assets/images/AOVPN-TS/1.PNG)
 
-2. Right-Click the top node and select *Create task...*
+2.  Right-Click the top node and select *Create task...*
 
 ![](/assets/images/AOVPN-TS/2.PNG)
 
@@ -59,27 +59,27 @@ Essentially the following adjustments need to be made:
 
 ![](/assets/images/AOVPN-TS/3.PNG)
 
-4. The *Select User or Group* dialog box is displayed:
+4.  The *Select User or Group* dialog box is displayed:
 
 ![](/assets/images/AOVPN-TS/4.PNG)
 
-5. Type *SYSTEM* and then click the *Check Names* button.
+5.  Type *SYSTEM* and then click the *Check Names* button.
 
 ![](/assets/images/AOVPN-TS/5.PNG)
 
-6. Ensure that *SYSTEM* becomes underlined, then click the *OK* button.
+6.  Ensure that *SYSTEM* becomes underlined, then click the *OK* button.
 
 ![](/assets/images/AOVPN-TS/6.PNG)
 
-7. Back on the *General* tab, ensure that you tick *Run with highest privileges*
+7.  Back on the *General* tab, ensure that you tick *Run with highest privileges*
 
 ![](/assets/images/AOVPN-TS/7.PNG)
 
-8. Select the *Actions* tab and then click the *New...* button.
+8.  Select the *Actions* tab and then click the *New...* button.
 
 ![](/assets/images/AOVPN-TS/8.PNG)
 
-9. Type the following in the *Program/script* text field:
+9.  Type the following in the *Program/script* text field:
 
 
 ```powershell
@@ -88,16 +88,16 @@ powershell.exe -executionpolicy bypass -file c:\path\to\your\vpn_deploy.ps1
 
 ![](/assets/images/AOVPN-TS/9.PNG)
 
-10. Click the *Yes* button when prompted about the arguments:
+10.  Click the *Yes* button when prompted about the arguments:
 
 ![](/assets/images/AOVPN-TS/10.PNG)
 
-11. Check that you have not made any typos, then click the *OK* button.
+11.  Check that you have not made any typos, then click the *OK* button.
 
 ![](/assets/images/AOVPN-TS/11.PNG)
 
 
-12. To run the task, simply right-click it in the list of tasks and choose *Run*
+12.  To run the task, simply right-click it in the list of tasks and choose *Run*
 
 ![](/assets/images/AOVPN-TS/12.PNG)
 
