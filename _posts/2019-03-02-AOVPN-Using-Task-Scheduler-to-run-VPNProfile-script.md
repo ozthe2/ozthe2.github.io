@@ -38,7 +38,7 @@ Open the  VPN_Profile.ps1 script in the ISE of your choice.
 In the first 'Try \ Catch' block in the script, edit the lines as shown in my screenshot below.
 
 Essentially the following adjustents need to be made: 
-- Set the variable *$Username* to domain\Username  eg Mydomain\fred.bloggs (Line 67 in my screenshot)
+- Set the variable *$Username* to domain\Username  eg Mydomain\fred.bloggs (Line 67 in my screenshot) This user name should be your non-privileged test account user.
 - Comment out (by placing # in fromt) the lines that start with *$objuser* and *$sid* (Lines 68 and 69 in my screenshot)
 - Set the variable $SidValue to the SID you obtained from step 2 (Line 70 in my screenshot)
 - Save the script
