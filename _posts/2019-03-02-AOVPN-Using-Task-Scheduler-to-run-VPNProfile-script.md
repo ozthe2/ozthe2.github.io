@@ -5,7 +5,7 @@ date:   2019-03-02 14:00:00 +0000
 categories: AOVPN
 tags: [aovpn, always-on-vpn, powershell, deployment, non-admin, vpn]
 ---
-If you want to know how I used task scheduler to run the AOVPN VPM_Profile.ps1 script then read this post.
+If you want to know how I used task scheduler to run the AOVPN VPN_Profile.ps1 script then read this post.
 
 I am in the middle of a migration project from Direct Access to Microsoft Always on VPN and so far it's going really well.  Both VPN solutions are running side-by-side until I complete the user migration.
 
