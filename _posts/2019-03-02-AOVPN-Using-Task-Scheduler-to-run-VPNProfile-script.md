@@ -9,10 +9,10 @@ If you want to know how I used task scheduler to run the AOVPN VPM_Profile.ps1 s
 
 I am in the middle of a migration project from Direct Access to Microsoft Always on VPN and so far it's going really well.  Both VPN solutions are running side-by-side until I complete the user migration.
 
-In my early days of testing though, I was working from home and wanted to test all of the tweaks and fine-tune adjustements to my VPN_Profile.ps1 script without having to deploy from Configuration Manager each time.  (Some of the tweaks I was testing included adding routing, configuring NPS failover and certificate filtering and these will become blog posts in their own right soon.)
+In my early days of testing though, I was working from home and wanted to test all of the tweaks and fine-tune adjustments to my VPN_Profile.ps1 script without having to deploy from Configuration Manager each time.  (Some of the tweaks I was testing included adding routing, configuring NPS failover and certificate filtering and these will become blog posts in their own right soon.)
 
 ### Non-Admin account?  No Problem.
-My test user account did not have any local or domain administrator priviliges and I needed a method of quickly redeploying the tweaked VPN_Profile in order to test the new configuration.
+My test user account did not have any local or domain administrator privileges and I needed a method of quickly redeploying the tweaked VPN_Profile in order to test the new configuration.
 
 I did this through a scheduled task - it's easy enough to do and this is how I achieved it:
 
@@ -37,7 +37,7 @@ Open the  VPN_Profile.ps1 script in the ISE of your choice.
 
 In the first 'Try \ Catch' block in the script, edit the lines as shown in my screenshot below.
 
-Essentially the following adjustents need to be made: 
+Essentially the following adjustments need to be made: 
 - Set the variable *$Username* to domain\Username  eg Mydomain\fred.bloggs (Line 67 in my screenshot) This user name should be your non-privileged test account user.
 - Comment out (by placing # in front of the line) the lines that start with *$objuser* and *$sid* (Lines 68 and 69 in my screenshot)
 - Set the variable $SidValue to the SID you obtained from step 2 (Line 70 in my screenshot)
@@ -47,7 +47,7 @@ Essentially the following adjustents need to be made:
 
 ### Step 4: Create a Scheduled Task
 
-1. Whilst logged in as your test user account, open Task Sceduler using an account with local admin rights.
+1. Whilst logged in as your test user account, open Task Scheduler using an account with local admin rights.
 
 ![](/assets/images/AOVPN-TS/1.PNG)
 
