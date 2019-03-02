@@ -97,7 +97,7 @@ powershell.exe -executionpolicy bypass -file c:\path\to\your\vpn_deploy.ps1
 ![](/assets/images/AOVPN-TS/11.PNG)
 
 
-12. To run the task, simply right-click it in the last and choose *Run*
+12. To run the task, simply right-click it in the list of tasks and choose *Run*
 
 ![](/assets/images/AOVPN-TS/12.PNG)
 
