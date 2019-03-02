@@ -14,7 +14,7 @@ In my early days of testing though, I was working from home and wanted to test a
 ### Non-Admin account?  No Problem.
 My test user account did not have any local or domain administrator priviliges and I needed a method of quickly redeploying the tweaked VPN_Profile in order to test the new configuration.
 
-It's easy enough to do and this is how I achieved it:
+I did this through a scheduled task - it's easy enough to do and this is how I achieved it:
 
 ### Step 1: Generate the VPN_Profile.ps1 Script
 Follow the methods in the [Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/remote/remote-access/vpn/always-on-vpn/deploy/vpn-deploy-client-vpn-connections#bkmk_ProfileXML) to generate your VPN_Profile.ps1 script.
