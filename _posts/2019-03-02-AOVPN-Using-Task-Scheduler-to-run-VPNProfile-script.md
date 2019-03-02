@@ -94,11 +94,11 @@ Essentially the following adjustments need to be made:
 
 11.  Check that you have not made any typos, then click the *OK* button. 
 
- ![](/assets/images/AOVPN-TS/11.PNG)
+   ![](/assets/images/AOVPN-TS/11.PNG)
 
 
 12.  To run the task, simply right-click it in the list of tasks and choose *Run*
 
- ![](/assets/images/AOVPN-TS/12.PNG)
+   ![](/assets/images/AOVPN-TS/12.PNG)
 
 Anytime you make a new change to the VPN_Profile.ps1 script, delete the existing VPN connection settings, launch an **elevated** Task Scheduler and run the scheduled task again.
