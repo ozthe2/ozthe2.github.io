@@ -19,7 +19,7 @@ I did this through a scheduled task - it's easy enough to do and this is how I a
 ### Step 1: Generate the VPN_Profile.ps1 Script
 Follow the methods in the [Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/remote/remote-access/vpn/always-on-vpn/deploy/vpn-deploy-client-vpn-connections#bkmk_ProfileXML) to generate your VPN_Profile.ps1 script.
 
-### Step 2: Obtain the SID for Your Test Account
+### Step 2: Obtain the SID for Your Test User Account
 Obtain the SID for your test user.  To do this, in a PowerShell prompt, run the following command:
 
 ```powershell
