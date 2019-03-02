@@ -30,7 +30,7 @@ Replacing *fred.bloggs* with the name of your test user account.
 
 Make a note of the SID from the PowerShell output:
 
-![](/assets/images/AOVPN-TS/userSID.png)
+![](/assets/images/AOVPN-TS/UserSID.png)
 
 ### Step 3: Edit the VPN_Profile.ps1 Script
 Open the  VPN_Profile.ps1 script in the ISE of your choice.
