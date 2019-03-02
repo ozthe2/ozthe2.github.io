@@ -3,7 +3,7 @@ layout: post
 title:  "AOVPN: How to use Task Scheduler to Deploy the VPN_Profile.ps1 Script"
 date:   2019-03-02 14:00:00 +0000
 categories: AOVPN
-tags: [caovpn, always-on-vpn, powershell, deployment, non-admin]
+tags: [aovpn, always-on-vpn, powershell, deployment, non-admin, vpn]
 ---
 If you want to know how I used task scheduler to run the AOVPN VPM_Profile.ps1 script then read this post.
 
