@@ -146,10 +146,10 @@ Example, if you wanted a 2 GB cache size, then the number you would use is 2048
 
 Now you simply need to upload this to your distribution point and deploy to a computer collection.  I made mine a required deployment.
 
-### 5.  Here’s what you get in the registry on the computer that has successfully had its cache size changed:
+### 4.  Here’s what you get in the registry on the computer that has successfully had its cache size changed:
 
 ![23](/assets/images/23.PNG)
 
-### 6. And the resulting cache size on the computer:
+### 5. And the resulting cache size on the computer:
 
 ![24](/assets/images/24.PNG)
