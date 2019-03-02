@@ -55,7 +55,7 @@ Essentially the following adjustents need to be made:
 
 ![](/assets/images/AOVPN-TS/2.PNG)
 
-3. Give your task a name, in this example it's called *AOVPN Tsting* and then click the *Change User or Group...* button.
+3. Give your task a name, in this example it's called *AOVPN Testing* and then click the *Change User or Group...* button.
 
 ![](/assets/images/AOVPN-TS/3.PNG)
 
