@@ -47,7 +47,7 @@ Essentially the following adjustents need to be made:
 
 ### Step 4: Create a Scheduled Task
 
-1. Whilst logged inas your test user account, open Task Sceduler using an account with local admin rights.
+1. Whilst logged in as your test user account, open Task Sceduler using an account with local admin rights.
 
 ![](/assets/images/AOVPN-TS/1.PNG)
 
