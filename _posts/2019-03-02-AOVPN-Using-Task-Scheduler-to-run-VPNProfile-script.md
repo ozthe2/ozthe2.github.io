@@ -7,7 +7,7 @@ tags: [caovpn, always-on-vpn, powershell, deployment, non-admin]
 ---
 If you want to know how I used task scheduler to run the AOVPN VPM_Profile.ps1 script then read this post.
 
-I am in the middle of a migration project from Direct Access to Microsoft Always on VPN and so far it's going really well.  I have so far replaced all of our current Direct Access entry points with AOVPN + Radius servers as well as introduced a few more and both VPN solutions are running side-by-side until I complete the user migration.
+I am in the middle of a migration project from Direct Access to Microsoft Always on VPN and so far it's going really well.  I have replaced all of our current Direct Access entry points with AOVPN + Radius servers as well as introduced a few more and both VPN solutions are running side-by-side until I complete the user migration.
 
 In my early days of testing though, I was working from home and wanted to test all of the tweaks and fine-tune adjustements to my VPN_Profile without having to deploy from Configuration Manager each time.  (Some of the tweaks I was teasting included adding routing, configuring NPS failover and certificate filtering and will become blog posts in their own right soon.)
 
