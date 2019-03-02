@@ -8,7 +8,7 @@ tags: [configmgr, wmf]
 
 If you want to know how I deployed WMF 3.0 then you will want to read this post.
 
-**Update**  To deploy WMF 4.0 see my post here.
+**Update**  To deploy WMF 4.0 see my post [here]({{ site.baseurl }}{% link _posts/2013-11-29-ConfigMgr-How-to-deploy-wmf4.md %}).
 
 By default, Windows 7 does not come with Powershell version 3.0 and that's reason enough to install WMF 3.0 on all of them.
 
