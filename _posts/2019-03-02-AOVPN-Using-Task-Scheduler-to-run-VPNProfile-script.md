@@ -71,7 +71,7 @@ Essentially the following adjustents need to be made:
 
 ![](/assets/images/AOVPN-TS/6.PNG)
 
-7. Back on the *General* tab, ensure that you tick *Run with highest priveledges*
+7. Back on the *General* tab, ensure that you tick *Run with highest privileges*
 
 ![](/assets/images/AOVPN-TS/7.PNG)
 
