@@ -20,3 +20,7 @@ Although it looks drastic, the fix is actually quite easy:
 I deleted the connection object in *Sites and Services* for the server in question and recreated it.
 
 Running `repadmin /showrepl *` showed no errors for the same servers once I had [recreated the connection objects]({{ site.baseurl }}{% link _posts/2018-07-16-RODC-How-to-Create-a-New-Connection-Object.md %}) and allowed replication to take place.
+
+### 2019 Update!
+
+[Did you know I've written a book?]({{ site.baseurl }}{% link _posts/2019-03-28-ConfigMgr-How-To-Deploy-Applications-Using-PowerShell.md %})

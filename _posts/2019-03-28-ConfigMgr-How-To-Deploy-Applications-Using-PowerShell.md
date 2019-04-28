@@ -6,11 +6,9 @@ categories: ConfigMgr
 tags: [configmgr, powershell, book]
 ---
 
-I'm writing a book!  I have nearly finished my first technical book: 
+I have a book out: **ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell**
 
-**ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell**
-
-This isn't a book on how to create applications within Config Mgr - it's the actual *deployment* of applications \ files etc.  Brilliant stuff!
+This isn't a book on how to create applications within Config Mgr - it's the actual how-to *deployment* of applications \ files etc.  Brilliant stuff!
 
 It's available right now on Leanpub for the super low price of $9.97 - so grab it now!
 
