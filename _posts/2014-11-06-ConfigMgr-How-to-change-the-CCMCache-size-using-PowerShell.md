@@ -20,7 +20,7 @@ OK, yeah, I mean the method described below will work and get you out of a bind 
 
 [Yeah...there is.]({{ site.baseurl }}{% link _posts/2019-03-28-ConfigMgr-How-To-Deploy-Applications-Using-PowerShell.md %})
 
-For those of you that still want to use my 'original, "get you out of a bind" method, then read on!
+For those of you that still want to use my original, "get you out of a bind" method, then read on!
 
 
 I recently needed to change the CCMCache size on a few hundred computers and this was my approach to doing it via an SCCM application deployment using a PowerShell script to make the cache size change.
