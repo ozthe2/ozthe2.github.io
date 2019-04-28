@@ -32,3 +32,9 @@ To save you typing, copy and paste this into your *migapp.xml*:
 ```xml
 <condition>MigXmlHelper.DoesObjectExist("Registry","%HklmWowSoftware%\Google\")</condition>
 ```
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

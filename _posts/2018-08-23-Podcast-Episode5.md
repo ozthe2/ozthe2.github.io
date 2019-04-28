@@ -16,3 +16,9 @@ As usual, you can follow me on Twitter: [@OzThe2](https://twitter.com/ozthe2) an
 Available from all of your usual Podcast sources or play it right here...
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/490561170&color=%23b4b4b4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

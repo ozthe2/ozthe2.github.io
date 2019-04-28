@@ -64,3 +64,10 @@ Feel free to change names and locations by adjusting the PowerShell code.
 Of course you could also make this a Compliance item instead of a deployed app should you wish to.
 
 The script is fully documented and you can find it in my [Github repo here.](https://github.com/ozthe2/Powershell/blob/master/SCCM/New-OHWiFiProfile)
+
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

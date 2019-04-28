@@ -45,3 +45,10 @@ Once that was done, I attempted to start the Net.Tcp Listener Adapter service ag
 Success!
 
 ![7-3](/assets/images/7-3.PNG)
+
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

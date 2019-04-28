@@ -80,3 +80,9 @@ specific DC to discover if it is a RODC by running this command:
 which returns true or false and opens up a few more scripting possibilities.  Brilliant!
 
 ![7](/assets/images/RODC/7.JPG)
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

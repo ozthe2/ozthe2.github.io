@@ -19,3 +19,9 @@ That's it.
 You *know* I'm not clever enough to just know all this right?  Right?  
 
 Yeah... I got this information from here: [Clever people](https://support.microsoft.com/en-gb/help/3212965/events-6804-and-2843-are-logged-and-rodcs-do-not-replicate-sysvol)
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

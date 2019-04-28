@@ -124,3 +124,9 @@ As a reminder in case you never saw [Part 1]({{ site.baseurl }}{% link _posts/20
 ![9](/assets/images/TSLogging/9.JPG)
 
 Please feel free to comment below!
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

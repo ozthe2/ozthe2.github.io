@@ -34,4 +34,10 @@ I then thought I’d better look up the documentation for this command as it’s
 
 `dism /cleanup-wim`
 
-I’ll leave you to read the document for this command yourself.  Suffice to say, it did the job!  Disk space reclaimed:
+I’ll leave you to read the document for this command yourself.  Suffice to say, it did the job!  Disk space reclaimed!
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

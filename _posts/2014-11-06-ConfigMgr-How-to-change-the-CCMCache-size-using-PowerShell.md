@@ -18,7 +18,7 @@ Ooohhh.... did I really do it this way?
 
 OK, yeah, I mean the method described below will work and get you out of a bind but there's just *gotta* be a better way right? RIGHT?
 
-[Yeah...there is.]({{ site.baseurl }}{% link _posts/2019-03-28-ConfigMgr-How-To-Deploy-Applications-Using-PowerShell.md %})
+[Yeah, there is.](https://leanpub.com/configmgr-DeployUsingPS)
 
 For those of you that still want to use my original, "get you out of a bind" method, then read on!
 
@@ -168,3 +168,9 @@ Now you simply need to upload this to your distribution point and deploy to a co
 ### 5. And the resulting cache size on the computer:
 
 ![24](/assets/images/24.PNG)
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

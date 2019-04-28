@@ -39,3 +39,9 @@ Then deploy only the WMF 4.0 Framework application.
 Once deployed successfully, the powershell version can be confirmed by opening a powershell window and typing ```$psversiontable``` at the prompt:
 
 ![Powershell version](/assets/images/wmf4/Powershell-v4.png)
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

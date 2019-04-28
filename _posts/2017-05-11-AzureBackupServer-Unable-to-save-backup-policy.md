@@ -19,3 +19,9 @@ Note the File Exclusions count in the image below equals 91, triggering the erro
 
 ### Solution:
 Reduce the exclusions list to 90 or below.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

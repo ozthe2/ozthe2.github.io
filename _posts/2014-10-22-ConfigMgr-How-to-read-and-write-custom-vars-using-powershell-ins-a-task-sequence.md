@@ -29,3 +29,9 @@ Here is a screenshot of the final result taken from the registry of an imaged co
 ![1-1](/assets/images/TSLogging/9.JPG)
 
 [Part 2]({{ site.baseurl }}{% link _posts/2014-10-22-ConfigMgr-Logging-the-time-taken-to-run-a-task-sequence.md %}) explains how I went about achieving this.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

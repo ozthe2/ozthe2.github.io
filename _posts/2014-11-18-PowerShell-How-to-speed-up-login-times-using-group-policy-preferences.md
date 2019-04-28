@@ -61,3 +61,9 @@ That is not a typo!  Seventeen seconds reduced from over a minute!  When I teste
 
 ### Get the script:
 You can find the script as it is so far [here](https://github.com/ozthe2/Powershell/blob/master/Active-Directory/DeployPrinters) in my Github repository.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

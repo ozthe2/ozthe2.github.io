@@ -41,6 +41,8 @@ I'm assuming a few things here:
 
 If you need me to explain any of this in more detail, please let me know via comments below or twitter: @ozthe2
 
-### 2019 Update!
+---
 
-[Did you know I've written a book?]({{ site.baseurl }}{% link _posts/2019-03-28-ConfigMgr-How-To-Deploy-Applications-Using-PowerShell.md %})
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

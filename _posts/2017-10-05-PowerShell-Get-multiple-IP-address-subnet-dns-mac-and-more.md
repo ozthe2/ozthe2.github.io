@@ -34,3 +34,9 @@ update-module ohtools
 To see the available cmdlets and version number:
 ```powershell
 get-command -module ohtools
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

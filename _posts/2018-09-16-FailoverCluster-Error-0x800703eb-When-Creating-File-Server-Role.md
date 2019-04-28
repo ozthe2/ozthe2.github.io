@@ -18,3 +18,9 @@ On the OU that contains your cluster Server nodes \ CNO perform the following st
 - Change the object type to 'Computer' and select your CNO. 
 - Grant it the following permissions: 'Create Computer Object' and 'Read All Properties'
 - Then delete the role from cluster manager and re-add it.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

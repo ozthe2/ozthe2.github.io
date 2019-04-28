@@ -19,3 +19,9 @@ What’s more, to contradict that error, I could manually connect to the SMP sha
 I had tried resetting the Network Access account password, removing the SMP role and adding it back, rebooting the server and the perusal of several log files as well as trying drastic things out such as giving excessive permissions to the Network access account just to rule it out.  Even Google couldn’t help me.
 
 The solution – and it took a while for me to figure this one out, was that I was trying this all out in Hyper-V.  It suddenly dawned on me that I had not tried to run the task sequence on a real ie physical computer and as soon as I did –  bingo!  Success!
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

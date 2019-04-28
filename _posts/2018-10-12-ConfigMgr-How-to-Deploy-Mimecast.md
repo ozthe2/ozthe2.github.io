@@ -25,6 +25,8 @@ At the end of the day, it's a PowerShell script so if you want to enhance it, th
 If you don't already deploy your applications via PowerShell, now's the time to get into the habit - in the long run, you will thank yourself for it.
 NB: If you're not sure how to go about deploying a PowerShell script, I will cover this step-by-step in my next post coming soon, using Mimecast as a 'real-world' example.
 
-### 2019 Update!
+---
 
-[Did you know I've written a book?]({{ site.baseurl }}{% link _posts/2019-03-28-ConfigMgr-How-To-Deploy-Applications-Using-PowerShell.md %})
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

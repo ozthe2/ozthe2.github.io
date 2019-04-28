@@ -72,3 +72,9 @@ Click the Next button, then click Next again at the Summary screen and you shoul
 
 ### 11.
 Click the close button and you’re done!
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

@@ -120,3 +120,9 @@ Here is what the configuration for Data Deduplication looks like on one of my Di
 
 
 [Part 2]({{ site.baseurl }}{% link _posts/2015-01-12-ConfigMgr-How-to-confirm-BranchCache-is-working.md %}) of this guide will demonstrate how to determine if BranchCache is actually working.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

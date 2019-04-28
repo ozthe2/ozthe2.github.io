@@ -76,3 +76,9 @@ Add a cname of workfolders that points to your cluster file server role name –
  
 
 That was it – after this, Work Folders worked like a charm! Sweet! 
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

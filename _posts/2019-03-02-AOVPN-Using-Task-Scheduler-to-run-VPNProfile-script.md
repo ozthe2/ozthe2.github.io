@@ -102,3 +102,9 @@ Essentially the following adjustments need to be made:
      ![](/assets/images/AOVPN-TS/12.PNG)
 
 Anytime you make a new change to the VPN_Profile.ps1 script, delete the existing VPN connection settings, launch an **elevated** Task Scheduler and run the scheduled task again.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

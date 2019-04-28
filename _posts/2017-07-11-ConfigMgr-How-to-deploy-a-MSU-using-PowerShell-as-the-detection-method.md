@@ -72,3 +72,9 @@ Your requirements may differ from mine..
 
 That's all there is to it.
 Leave a comment below if this helped you out!
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

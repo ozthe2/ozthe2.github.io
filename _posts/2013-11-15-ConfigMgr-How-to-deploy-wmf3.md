@@ -104,3 +104,9 @@ With that in mind, here's my detection rule:
 ![](/assets/images/wmf3/20.png)
 
 All you need to do now is to upload it to your distribution point and deploy it to either a computer collection or if you really feel the burning need to, make it available in the Application Catalog to your end users.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

@@ -18,3 +18,9 @@ I checked SMSTS.log on the local computer that had the error and the following i
 
 ### The solution:
 Changing the memory on the computer fixed the issue.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

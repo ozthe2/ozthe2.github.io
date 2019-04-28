@@ -57,3 +57,9 @@ Now at your branch office, install an application from SCCM on another computer 
 
 ### 10.
 That’s it!   Don’t forget to turn off the perfmon collector set when you’ve finished.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

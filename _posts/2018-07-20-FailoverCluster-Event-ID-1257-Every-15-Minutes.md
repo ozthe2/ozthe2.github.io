@@ -28,6 +28,8 @@ I simply deleted the CNO 'A' record in DNS and recreated it, ensuring that when 
 
 If you do not pre-create the CNO A record in DNS then you will not have this issue.
 
-### 2019 Update!
+---
 
-[Did you know I've written a book?]({{ site.baseurl }}{% link _posts/2019-03-28-ConfigMgr-How-To-Deploy-Applications-Using-PowerShell.md %})
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

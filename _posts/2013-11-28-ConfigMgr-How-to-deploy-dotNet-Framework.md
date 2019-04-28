@@ -101,3 +101,9 @@ With that in mind, ensure that your detection rule looks like mine (for a .net 4
 ![net20-1](/assets/images/dotNet/net20-1.JPG)
 
 21.  All that’s left is to upload the finished application to your distribution point and then deploy it to a computer collection.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

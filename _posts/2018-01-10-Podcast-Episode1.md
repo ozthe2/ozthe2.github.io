@@ -19,3 +19,9 @@ As usual, you can follow me on Twitter: [@OzThe2](https://twitter.com/ozthe2) an
 You can listen to the podcast on your favourite podcast app by searching for 'OzThe2' or 'The Secret Diary of a Network Administrator' or alternatively from these locations: iTunes, Stitcher, Soundcloud, Blubrry or play it right here...
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/378411674&color=%236e6e6e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

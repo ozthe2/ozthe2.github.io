@@ -45,3 +45,9 @@ Yes.  If you do the assigned homework and put in the hours you cannot go wrong. 
 
 ## Details
 http://www.firebrandtraining.co.uk
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

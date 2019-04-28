@@ -16,3 +16,9 @@ Here’s the basic line that you can tailor to meet your needs , obviously you w
 ```powershell
 Get-ADObject -filter 'dnsTombstoned -eq $true' -SearchBase 'dc=oh.pri,CN=MicrosoftDNS,DC=DomainDNSZones,DC=oh,DC=Pri' -Properties  dNSTombstoned,name,distinguishedName,whenchanged
 ```
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

@@ -38,3 +38,9 @@ Staging Area After:
 ![5-1](/assets/images/5-1.PNG)
 
 To finish off, I restarted the server and continued my testing.  Azure backup worked as expected and the error logs were error free.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

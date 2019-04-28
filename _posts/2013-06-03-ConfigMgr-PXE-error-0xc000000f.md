@@ -44,3 +44,9 @@ We use a self-signed certificate and it had expired!
 
 #### The solution:
 I changed the expiration date of the self-signed certificate to a future date and restarted the config manager server.  (*Note:* the restart is required)
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

@@ -25,3 +25,9 @@ So I went back to the computer in question and then copied off *scanstate.log*. 
 I booted the computer into Windows and manually backed up the user profile mentioned in the scanstate.log to usb storage and then deleted the profile from the computer.
 
 I was then able to successfully image.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

@@ -26,3 +26,9 @@ Schedule the task with the program: powershell.exe and the arguments similar to 
 And of course you can always add *-whatif* to test before you commit ;-)
 
 Find the script [here](https://github.com/ozthe2/Powershell/blob/master/CF/Delete-FilesOlderThan).
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)

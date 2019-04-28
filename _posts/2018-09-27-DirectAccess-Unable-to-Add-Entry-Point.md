@@ -18,3 +18,9 @@ Our organisational Direct Access infrastructure was built on Microsoft Server 20
 When I built the new Entry Point server in our Dubai office I used Microsoft Server 2016.  This was why it failed as you cannot mix operating systems.
 Bizarre, I know.
 So I rebuilt the Entry Point server, this time using Microsoft Server 2012 R2, the same as all of our other DA and Entry point servers, ran the 'Add Entry Point' wizard again and bingo!  It worked.
+
+---
+
+**Get my book:**
+
+[ConfigMgr - An Administrator's Guide to Deploying Applications using PowerShell](https://leanpub.com/configmgr-DeployUsingPS)
