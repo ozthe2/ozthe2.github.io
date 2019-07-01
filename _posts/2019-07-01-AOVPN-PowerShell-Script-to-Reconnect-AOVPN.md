@@ -1,9 +1,9 @@
 ﻿---
 layout: post
-title:  "PowerShell: Script to Reconnect AOVPN"
+title:  "AOVPN: PowerShell Script to Reconnect AOVPN"
 date:   2019-07-01 19:00:00 +0000
-categories: PowerShell
-tags: [powershell, aovpn]
+categories: AOVPN
+tags: [aovpn, always-on-vpn, powershell]
 ---
 
 AOVPN doesn't always reconnect - here's how I remediated it.
