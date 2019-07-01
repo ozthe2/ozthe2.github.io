@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "AOVPN: PowerShell Script to Reconnect AOVPN"
+title:  "AOVPN: PowerShell Script to Reconnect."
 date:   2019-07-01 19:00:00 +0000
 categories: AOVPN
 tags: [aovpn, always-on-vpn, powershell]
