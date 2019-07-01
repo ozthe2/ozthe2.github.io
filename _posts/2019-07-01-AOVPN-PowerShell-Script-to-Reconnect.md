@@ -8,7 +8,7 @@ tags: [aovpn, always-on-vpn, powershell]
 
 AOVPN doesn't always reconnect - here's how I remediated it.
 
-Always On VPN is, let's face it, not all it's cracked up to be.  Even this late stage in the game it has many issues and simply is not (in my opinion) as robust as Direct Access.
+Always On VPN is, let's face it, not all it's cracked up to be.  Even at this late stage in the game it has many issues and simply is not (in my opinion) as robust as Direct Access.
 
 One issue our users have found is that if their Internet connection 'breaks' for any reason and AOVPN disconnects, say through a ropey Internet connection, waking up from sleep or hibernation or any other edge-case scenario that causes AOVPN to disconnect, then it's more than probable AOVPN will not auto-reconnect.  At least, not in any reasonable time.
 
