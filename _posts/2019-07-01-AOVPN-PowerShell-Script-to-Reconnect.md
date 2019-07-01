@@ -18,7 +18,7 @@ As usual, it falls to us lowly administrators to try and mitigate these issues a
 
 The script is intended to be run as a Scheduled Task.  I have the task triggers set to event ID's such as waking from sleep \ hibernation, if the network connection drops then re-establishes etc etc. 
 
-The script first checks to see if any device is on the corporate LAN, as if it is, I don't want the script to try and connect to AOVPN.
+The script first checks to see if the disconnected device is on the corporate LAN, as if it is, I don't want the script to try and connect to AOVPN.
 
 If the device is not on the corporate LAN and AOVPN is not connected, then try to connect a predetermined number of times before giving up.
 
@@ -27,6 +27,8 @@ The number of times it tries to reconnect is a configurable parameter that can a
 
 ### The Script:
 [Start-AOVPN can be found in my GitHub repo here.](https://github.com/ozthe2/AOVPN/blob/master/Start-AOVPN)
+
+The script has full comment-based help so make sure you have a read-through of it.
 
 
 
