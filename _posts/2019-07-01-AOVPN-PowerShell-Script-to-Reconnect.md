@@ -22,7 +22,7 @@ The script first checks to see if the disconnected device is on the corporate LA
 
 If the device is not on the corporate LAN and AOVPN is not connected, then try to connect a predetermined number of times before giving up.
 
-The number of times it tries to reconnect is a configurable parameter that can also be set to ['never stop, never stopping'](https://en.wikipedia.org/wiki/Popstar:_Never_Stop_Never_Stopping) by  setting the parameter to 0.
+The number of times it tries to reconnect is a configurable parameter that can also be set to ['never stop, never stopping'](https://en.wikipedia.org/wiki/Popstar:_Never_Stop_Never_Stopping) by  setting the *-ConnectionAttempts* parameter to 0.
 
 
 ### The Script:
