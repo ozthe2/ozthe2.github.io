@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "ConfigMgr: How To Deploy EMC SourceOne using PowerShell"
-date:   2019-10-14 22:00:00 +0000
+date:   2019-10-14 20:00:00 +0000
 categories: ConfigMgr
 tags: [configmgr, powershell, book,emc,sourceone]
 ---
