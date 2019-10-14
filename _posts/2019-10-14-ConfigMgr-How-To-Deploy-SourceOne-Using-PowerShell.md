@@ -6,6 +6,8 @@ categories: ConfigMgr
 tags: [configmgr, powershell, book,emc,sourceone]
 ---
 
+If you want to know how I deployed EMC SourceOne for Offline Files using PowerShell and SCCM then you will want to read this post.
+
 Last week I had to deploy a new version of the EMC SourceOne client for Offline files.
 
 When I went to download the latest version, I discovered that I would need to deploy two setup.exe's: *Version 7.2 SP7* followed by *version 7.2 SP7 Hotfix 1.*
