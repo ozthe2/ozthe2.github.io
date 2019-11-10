@@ -18,7 +18,7 @@ One hurdle I had to overcome though was deploying display language, keyboard and
 
 I'm very much into book writing and the solution can be found in my second book published on Leanpub:
 
-[ConfigMgr - An Administrator's Guide to Deploying Language and Regional Settings](https://leanpub.com/configmgr-DeployUsingPS)
+[ConfigMgr - An Administrator's Guide to Deploying Language and Regional Settings](https://leanpub.com/configmgr-DeployLang/)
 
 Let me save you hours and hours and hours of research, more research, testing, failure, testing, more testing and potentially giving up and going back to MDT.
 
