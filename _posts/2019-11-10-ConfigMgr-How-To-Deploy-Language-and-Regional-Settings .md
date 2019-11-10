@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "ConfigMgr: How To Deploy Language and keybord and Regional Settings"
+title:  "ConfigMgr: How To Deploy Language, keyboard and Regional Settings"
 date:   2019-11-10 19:55:00 +0000
 categories: ConfigMgr
 tags: [configmgr, powershell, book, TS, task, sequence]
