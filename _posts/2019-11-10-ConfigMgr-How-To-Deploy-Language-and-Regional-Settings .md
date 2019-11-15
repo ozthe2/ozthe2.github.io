@@ -24,6 +24,8 @@ Let me save you hours and hours and hours of research, more research, testing, f
 
 Help me, help you help them.
 
+![](/assets/images/smalllangbook.png)
+
 ---
 
 If you want to obtain a great understanding of deploying pretty much anything using PowerShell and SCCM then you'll want to grab a copy of my book now.
