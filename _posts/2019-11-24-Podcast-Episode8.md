@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Podcast: The Secret Diary of a Network Administrator - Episode "
+title:  "Podcast: The Secret Diary of a Network Administrator - Episode 8"
 date:   2019-11-24 19:30:00 +0000
 categories: Podcast
 tags: [podcast,configmgr,powershell,applocker,aovpn,sccm,aaronlocker,vscode]
