@@ -8,7 +8,7 @@ tags: [podcast,configmgr,powershell,applocker,aovpn,sccm,aaronlocker,vscode]
 Podcast: The Secret Diary of a Network Administrator Episode 8.
 In this episode I talk about the continuing voyages of AOVPN, SCCM, AppLocker, my two new SCCM books,  I also have a small moan and explain why I dumped Twitter.  
 
-Here are some links to som of the resources that I mention in the podcast:
+Here are some links to some of the resources that I mention in the podcast:
 
 
 [AaronLocker Quickstart on YouTube](https://www.youtube.com/watch?v=E-IrqFtJOKU)
