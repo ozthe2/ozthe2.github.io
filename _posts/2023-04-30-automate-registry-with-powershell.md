@@ -22,7 +22,7 @@ Let's go through each of the parameters in more detail.
 
 To modify the registry, you first need to specify the registry key you want to modify. This is where the 'Path' parameter comes in. The 'Path' parameter takes a string that specifies the registry key path. For example, you might specify HKCU:\Software\Microsoft.
 
-The 'Name' parameter specifies the name of the registry key value you want to modify. For example, you might specify '(Default)' or 'UninstallString'.
+The 'Name' parameter specifies the name of the registry key value you want to modify. For example, you might specify 'UninstallString'.
 
 The 'Type' parameter specifies the data type of the registry key value. This can be 'DWORD', 'STRING', 'BINARY', or other data types supported by the Windows registry.
 
