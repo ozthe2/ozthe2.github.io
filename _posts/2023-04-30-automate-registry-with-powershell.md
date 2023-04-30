@@ -34,7 +34,7 @@ Finally, the 'Action' parameter specifies the action you want to perform on the 
 
 To perform the appropriate action based on the user input, I utilized a switch statement. If the action is "Create" and the path does not exist, the function will create the path, name, type, and value. If the path exists but there is no data/value, it will create the name with the value. If the path, name, and value already exist, the function will exit.
 
-If the action is "Replace," the function acts similarly to 'Create', except that if the path, name, and value already exist, it will replace the value with the new value.
+If the action is "Replace," the function acts similarly to 'Create', except that if the path, name, and value already exist, it will replace type and value with the new type and value.
 
 If the action is "Delete," the function will delete the registry value. It leaves the path intact.
 
