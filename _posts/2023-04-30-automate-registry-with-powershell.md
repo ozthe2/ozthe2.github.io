@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "How to Automate Registry-Related Tasks with Modify-OHRegistry PowerShell Function"
+title:  "How to Automate Registry-Related Tasks with Set-OHRegistry PowerShell Function"
 date:   2023-04-30 09:00:00 +0000
 categories: powershell
 tags: [powershell, registry]
 ---
 
-At work, I needed to write a PowerShell function that would modify the Windows registry by creating, replacing, or deleting a specified registry key value. After some development and testing, I created a function called "Modify-OHRegistry," which takes five parameters to complete the required task.
+At work, I needed to write a PowerShell function that would modify the Windows registry by creating, replacing, or deleting a specified registry key value. After some development and testing, I created a function called "Set-OHRegistry," which takes five parameters to complete the required task.
 
-The five parameters of the Modify-OHRegistry PowerShell function are:
+The five parameters of the Set-OHRegistry PowerShell function are:
 
 - 'Path': the path to the registry key (e.g., HKCU:\Software\Microsoft).
 - 'Name': the name of the registry key value (e.g., '(Default)' or 'UninstallString').
@@ -42,7 +42,7 @@ One way you may wish to improve the function is to use Write-Verbose instead of 
 
 However, for my work task, I required Write-Host. Additionally, the function could be further improved by using a ValidateSet for the action type. For my requirements though, I needed to ensure that a terminating error was not produced if an incorrect action type was entered so chose to add it as the default option in the switch.  I've left the 'validateset' in the parameter but commented it out in case you prefer it.  Just uncomment it and then remove the whole 'default' line in the switch.
 
-Overall, the Modify-OHRegistry PowerShell function is a useful tool for modifying the Windows registry. While it could be improved in certain ways, it is a solid solution for those looking to automate registry-related tasks. The script is available on my GitHub repository at https://github.com/ozthe2/MyPowerShell/tree/main/Registry and the file is named: Modify-OHRegistry.ps1.
+Overall, the Set-OHRegistry PowerShell function is a useful tool for modifying the Windows registry. While it could be improved in certain ways, it is a solid solution for those looking to automate registry-related tasks. The script is available on my GitHub repository at https://github.com/ozthe2/MyPowerShell/tree/main/Registry and the file is named: Set-OHRegistry.ps1.
 
 ---
 
