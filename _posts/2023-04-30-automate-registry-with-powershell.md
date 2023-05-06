@@ -18,6 +18,8 @@ The five parameters of the Set-OHRegistry PowerShell function are:
 
 ![](/assets/images/modifyreg.png)
 
+## Parameters
+
 Let's go through each of the parameters in more detail.
 
 To modify the registry, you first need to specify the registry key you want to modify. This is where the 'Path' parameter comes in. The 'Path' parameter takes a string that specifies the registry key path. For example, you might specify HKCU:\Software\Microsoft.
@@ -33,6 +35,7 @@ Finally, the 'Action' parameter specifies the action you want to perform on the 
 ```
 Set-OHRegistry -path 'HKCU:\SOFTWARE\OHTesting' -name "Entry1" -type String -value "Some Data" -Action Replace
 ```
+## Breakdown of Actions
 
 To perform the appropriate action based on the user input, I utilized a switch statement. If the action is "Create" and the path does not exist, the function will create the path, name, type, and value. If the path exists but there is no data/value, it will create the name with the value. If the path, name, and value already exist, the function will exit.
 
@@ -40,9 +43,13 @@ If the action is "Replace," the function acts similarly to 'Create', except that
 
 If the action is "Delete," the function will delete the registry value. It leaves the path intact.
 
+## Function Improvements
+
 One way you may wish to improve the function is to use Write-Verbose instead of Write-Host, as Write-Verbose allows users to selectively view detailed information during script execution. When you use Write-Verbose, the output will only appear in the console if the user explicitly specifies the -Verbose switch when running the script. This is especially useful for long-running scripts or scripts that perform complex tasks.
 
 However, for my work task, I required Write-Host. Additionally, the function could be further improved by using a ValidateSet for the action type. For my requirements though, I needed to ensure that a terminating error was not produced if an incorrect action type was entered so chose to add it as the default option in the switch.  I've left the 'validateset' in the parameter but commented it out in case you prefer it.  Just uncomment it and then remove the whole 'default' line in the switch.
+
+## Conclusion
 
 Overall, the Set-OHRegistry PowerShell function is a useful tool for modifying the Windows registry. While it could be improved in certain ways, it is a solid solution for those looking to automate registry-related tasks. The script is available on my GitHub repository at https://github.com/ozthe2/MyPowerShell/tree/main/Registry and the file is named: Set-OHRegistry.ps1.
 
