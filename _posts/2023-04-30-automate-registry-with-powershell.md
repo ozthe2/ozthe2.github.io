@@ -41,7 +41,7 @@ To perform the appropriate action based on the user input, I utilized a switch s
 
 If the action is "Replace," the function acts similarly to 'Create', except that if the path, name, and value already exist, it will replace type and value with the new type and value.
 
-If the action is "Delete," the function will delete the registry data and value pair. It leaves the path intact.
+If the action is "Delete," the function will delete the registry data (Name) and value pair. It leaves the path intact.
 
 ## Function Improvements
 
