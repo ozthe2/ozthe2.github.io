@@ -30,7 +30,9 @@ The 'Value' parameter specifies the value you want to associate with the name. F
 
 Finally, the 'Action' parameter specifies the action you want to perform on the registry. This can be 'Create', 'Replace', or 'Delete'.
 
-![](/assets/images/callregfunction.png)
+```
+Set-OHRegistry -path 'HKCU:\SOFTWARE\OHTesting' -name "Entry1" -type String -value "Some Data" -Action Replace
+```
 
 To perform the appropriate action based on the user input, I utilized a switch statement. If the action is "Create" and the path does not exist, the function will create the path, name, type, and value. If the path exists but there is no data/value, it will create the name with the value. If the path, name, and value already exist, the function will exit.
 
