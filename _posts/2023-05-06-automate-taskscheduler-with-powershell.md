@@ -8,7 +8,7 @@ tags: [powershell, taskscheduler]
 
 As a PowerShell user, scheduling PowerShell scripts is something you might have done frequently. However, it can be a time-consuming process that requires a lot of repetitive work. At my workplace we schedule a lot of PowerShell scripts and fortunately, with the New-OHScheduledTask function, scheduling PowerShell scripts has never been easier. 
 
-The New-OHScheduledTask function is a PowerShell function that creates a new scheduled task in the Task Scheduler to run a specified PowerShell script. This function is designed to provide users with an easy-to-use interface that allows them to specify task details such as the name of the scheduled task, the trigger, allowed user, script path, delay time, task folder, and much more. 
+The New-OHScheduledTask function is a PowerShell function that creates a new scheduled task in the Task Scheduler to run a specified PowerShell script. This function is designed to provide users with an easy method to schedule PowerShell scripts and allows them to specify task details such as the name of the scheduled task, the trigger, allowed user, script path, delay time, task folder, and much more. 
 
 The function begins by checking if the specified script path exists before proceeding with the creation of the scheduled task. If the script path does not exist, the user will be notified, and the function will return. Next, the function checks if the user specified a task name; if no name was specified, it uses the leaf name of the script path instead.
 
