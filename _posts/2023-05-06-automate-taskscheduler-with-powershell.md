@@ -16,23 +16,25 @@ New-OHScheduledTask has several optional parameters that can be used to customiz
 
 The -TaskFolder parameter allows you to specify the folder to store the scheduled task in. If you don't specify a folder, the function will create a folder named "OHTesting" so be aware of this as you may wish to change it. The -AllowedUser parameter allows you to specify the user account that is allowed to run the scheduled task. The options available are "BUILTIN\Users" and "NT AUTHORITY\SYSTEM." 
 
-Additionally, the function has three switch parameters: -RunWithHighestPrivilege, -StartTaskImmediately, and -DeleteExistingTask. The -RunWithHighestPrivilege parameter indicates that the scheduled task should run with the highest privilege. The -StartTaskImmediately parameter indicates that the scheduled task should be started immediately after creation. The -DeleteExistingTask parameter indicates that an existing task with the same name should be deleted before creating a new one.
+Additionally, the function has three switch parameters: *-RunWithHighestPrivilege*, *-StartTaskImmediately*, and *-DeleteExistingTask*. The -RunWithHighestPrivilege parameter indicates that the scheduled task should run with the highest privilege. The -StartTaskImmediately parameter indicates that the scheduled task should be started immediately after creation. The -DeleteExistingTask parameter indicates that an existing task with the same name should be deleted before creating a new one.
 
 To demonstrate how to use the New-OHScheduledTask function, consider the following examples:
 
-Example 1:
-
+## Example 1:
+```
 New-OHScheduledTask -TaskName "MyTask" -ScriptPath "C:\Scripts\MyScript.ps1" -AllowedUser "NT AUTHORITY\SYSTEM" -Trigger "AtStartup" -RunWithHighestPrivilege -StartTaskImmediately
+```
 
 This example creates a scheduled task named "MyTask" to run "C:\Scripts\MyScript.ps1" at startup, allows "NT AUTHORITY\SYSTEM" to run the task, runs the task with the highest privilege, and starts the task immediately after creation.
 
-Example 2:
-
+## Example 2:
+```
 New-OHScheduledTask -ScriptPath "C:\Scripts\MyScript.ps1" -AllowedUser "BUILTIN\Users" -DelayTask "30m"
+```
 
 This example creates a scheduled task to run "C:\Scripts\MyScript.ps1" with a 30-minute delay and allows "BUILTIN\Users" to run the task.
 
-In conclusion, the New-OHScheduledTask function is a handy tool that simplifies the process of scheduling PowerShell scripts. The function's customizable parameters allows users to create scheduled tasks quickly and efficiently and you can find it in my GitHub repo: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHScheduledTask and the file is called: New-OHScheduledTask.
+In conclusion, the New-OHScheduledTask function is a handy tool that simplifies the process of scheduling PowerShell scripts. The function's customizable parameters allows users to create scheduled tasks quickly and efficiently and you can find it in my GitHub repo: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHScheduledTask.
 
 
 ---
