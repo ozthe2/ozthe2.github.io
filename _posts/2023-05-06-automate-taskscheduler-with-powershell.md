@@ -57,7 +57,7 @@ This example deletes the task named, "MyTask" if it exists.
 
 ## Conclusion
 
-In conclusion, the `New-OHScheduledTask` function is a powerful tool that can help you automate a wide range of tasks on your Windows machine. Whether you need to run a PowerShell script, launch an application, or execute a batch file, this function can help you get the job done. The function's customizable parameters allows you to create scheduled tasks quickly and efficiently and you can find it in my GitHub repo: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHScheduledTask.
+In conclusion, the `New-OHScheduledTask` function is a powerful tool that can help you automate a wide range of tasks on your Windows machine. Whether you need to run a PowerShell script, launch an application, or execute a batch file, this function can help you get the job done. The function's customizable parameters allows you to create scheduled tasks quickly and efficiently and you can find it in my GitHub repo: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHScheduledTask.ps1.
 
 
 ---
