@@ -7,7 +7,7 @@ tags: [powershell, shortcuts]
 ---
 
 
-If you're a Windows user, chances are you use shortcuts to quickly access your favorite programs and files. Shortcuts are an essential part of the user experience, and they can help you save time and improve your productivity. However, creating and managing shortcuts can be a time-consuming and tedious task. That's where the New-OHShortcut function comes in handy. This PowerShell function allows you to create and manage shortcuts with ease.
+If you're a Windows user, chances are you use shortcuts to quickly access your favorite programs and files. Shortcuts are an essential part of the user experience, and they can help you save time and improve your productivity. However, creating and managing shortcuts can be a time-consuming and tedious task. That's where the New-OHShortcut function comes in handy. I wrote this for work last week and this PowerShell function allows you to create and manage shortcuts with ease.
 
 ## What is New-OHShortcut?
 
