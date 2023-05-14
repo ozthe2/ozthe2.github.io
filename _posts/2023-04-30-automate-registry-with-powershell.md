@@ -51,7 +51,7 @@ However, for my work task, I required Write-Host. Additionally, the function cou
 
 ## Conclusion
 
-Overall, the Set-OHRegistry PowerShell function is a useful tool for modifying the Windows registry. While it could be improved in certain ways, it is a solid solution for those looking to automate registry-related tasks. The script is available on my GitHub repository at https://github.com/ozthe2/MyPowerShell/tree/main/Registry and the file is named: Set-OHRegistry.ps1.
+Overall, the Set-OHRegistry PowerShell function is a useful tool for modifying the Windows registry. While it could be improved in certain ways, it is a solid solution for those looking to automate registry-related tasks. The script is available on my GitHub repository: https://github.com/ozthe2/MyPowerShell/blob/main/Modify-OHRegistry.ps1
 
 ---
 
