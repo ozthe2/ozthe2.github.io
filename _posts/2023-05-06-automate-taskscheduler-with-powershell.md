@@ -6,41 +6,40 @@ categories: powershell
 tags: [powershell, taskscheduler]
 ---
 
-As a PowerShell user, scheduling PowerShell scripts is something you might have done frequently. However, it can be a time-consuming process that requires a lot of repetitive work. At my workplace we schedule a lot of PowerShell scripts and fortunately, with the New-OHScheduledTask function, scheduling PowerShell scripts has never been easier. 
+Automating repetitive tasks is essential for many IT professionals and system administrators. One of the most useful tools for automating tasks on a Windows machine is PowerShell. However, scheduling PowerShell scripts to run at specific times can be a bit of a challenge. Fortunately, there is a solution: the `New-OHScheduledTask` function.
 
-The New-OHScheduledTask function is a PowerShell function that creates a new scheduled task in the Task Scheduler to run a specified PowerShell script. This function is designed to provide users with an easy method to schedule PowerShell scripts and allows them to specify task details such as the name of the scheduled task, the trigger, allowed user, script path, delay time, task folder, and much more. 
+## What is New-OHScheduledTask?
 
-# Overview
+The `New-OHScheduledTask` function is a PowerShell cmdlet that creates a new scheduled task. It is a powerful tool that can help you automate a wide range of tasks, from running PowerShell scripts to launching applications and running batch files.
 
-The function begins by checking if the specified script path exists before proceeding with the creation of the scheduled task. If the script path does not exist, the user will be notified, and the function will return. Next, the function checks if the user specified a task name; if no name was specified, it uses the leaf name of the script path instead. Similarly for the description parameter: a default description is added if the parameter is unused.
 
-New-OHScheduledTask has several other optional parameters that can be used to customize the scheduled task to meet your needs. For example, the -Trigger parameter allows you to specify when the task should run. The options available are "AtLogon" and "AtStartup." If you want to specify a delay time before the scheduled task runs, the -DelayTask parameter can be used. The options available are "30s", "1m", "30m", and "1h."
+## How to Use New-OHScheduledTask
 
-The -TaskFolder parameter allows you to specify the folder to store the scheduled task in. If you don't specify a folder, the function will create a folder named "OHTesting" so be aware of this as you may wish to change it. The -AllowedUser parameter allows you to specify the user account that is allowed to run the scheduled task. As I use this script primarily in automation, the only options available are "BUILTIN\Users" and "NT AUTHORITY\SYSTEM" although you can easily modify this to meet your needs if required.
+To create a new scheduled task using the `New-OHScheduledTask` function, you first need to specify the task's properties, such as the task name, the program or script to run, and the schedule for running the task. The  function has been optimmised to quickly schedule PowerShell scripts although it can just as easily schedule an exe. As I use it in my workplace primarily for Powershell, I'll focus the examples on that:
 
-## Switches
+### Example 1: Deploying a simple PowerShell script
 
-Additionally, the function has three switch parameters: *-RunWithHighestPrivilege*, *-StartTaskImmediately*, and *-DeleteExistingTask*. The -RunWithHighestPrivilege parameter indicates that the scheduled task should run with the highest privilege. The -StartTaskImmediately parameter indicates that the scheduled task should be started immediately after creation. The -DeleteExistingTask parameter indicates that an existing task with the same name should be deleted before creating a new one.
+```powershell
+New-OHScheduledTask -TaskName "MyTask" -TaskDescription "Runs a simple PowerShell script." -Trigger AtStartup -AllowedUser 'NT AUTHORITY\SYSTEM' -ScriptPath "c:\ohtemp\test2.ps1" -Action replace -RunWithHighestPrivilege
 
-To demonstrate how to use the New-OHScheduledTask function, consider the following examples:
-
-### Example 1:
 ```
-New-OHScheduledTask -TaskName "MyTask" -ScriptPath "C:\Scripts\MyScript.ps1" -AllowedUser "NT AUTHORITY\SYSTEM" -Trigger "AtStartup" -RunWithHighestPrivilege -StartTaskImmediately
-```
+This example creates a new scheduled task named "MyTask" that runs a simple PowerShell script at system startup. The task is set to replace any existing task with the same name, and it will run with the highest privileges.
 
-This example creates a scheduled task named "MyTask" to run "C:\Scripts\MyScript.ps1" at startup, allows "NT AUTHORITY\SYSTEM" to run the task, runs the task with the highest privilege, and starts the task immediately after creation.
-
-### Example 2:
+### Example 2: Deploying a complex PowerShell script
+```powershell
+New-OHScheduledTask -TaskName "MyTask" -TaskDescription "Runs a PowerShell script with lots of arguments." -Trigger AtStartup -AllowedUser 'NT AUTHORITY\SYSTEM' -Program "C:\Windows\System32\WindowsPowerShell\v1.0\PowerShell.exe" -Arguments '-noprofile -executionpolicy bypass -command "& { . c:\ohtemp\test2.ps1; Show-Text -textToDisplay "Important Text!" }' -Action add -RunWithHighestPrivilege
 ```
-New-OHScheduledTask -ScriptPath "C:\Scripts\MyScript.ps1" -AllowedUser "BUILTIN\Users" -DelayTask "30m"
-```
+This example creates a new scheduled task named "MyTask" that runs a PowerShell script with lots of arguments, at system startup. The task is set to add a new task as long as the task name does not already exist, and it will run with the highest privileges. The PowerShell script in this example displays the text "Important Text!" using the Show-Text function contained in the script.
 
-This example creates a scheduled task to run "C:\Scripts\MyScript.ps1" with a 30-minute delay and allows "BUILTIN\Users" to run the task.
+### Example 3: Deleting a Scheduled Task
+```powershell
+New-OHScheduledTask -TaskName "MyTask" -Delete
+```
+This example deletes the task named, "MyTask" if it exists.
 
 ## Conclusion
 
-In conclusion, the New-OHScheduledTask function is a handy tool that simplifies the process of scheduling PowerShell scripts. The function's customizable parameters allows users to create scheduled tasks quickly and efficiently and you can find it in my GitHub repo: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHScheduledTask.
+In conclusion, the `New-OHScheduledTask` function is a powerful tool that can help you automate a wide range of tasks on your Windows machine. Whether you need to run a PowerShell script, launch an application, or execute a batch file, this function can help you get the job done. The function's customizable parameters allows you to create scheduled tasks quickly and efficiently and you can find it in my GitHub repo: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHScheduledTask.
 
 
 ---
