@@ -22,13 +22,19 @@ To create a new scheduled task using the `New-OHScheduledTask` function, you fir
 New-OHScheduledTask -TaskName "MyTask" -TaskDescription "Runs a simple PowerShell script." -Trigger AtStartup -AllowedUser 'NT AUTHORITY\SYSTEM' -ScriptPath "c:\ohtemp\test2.ps1" -Action replace -RunWithHighestPrivilege
 
 ```
-This example creates a new scheduled task named "MyTask" that runs a simple PowerShell script at system startup. The task is set to replace any existing task with the same name, and it will run with the highest privileges.
+This example demonstrates how to create a new scheduled task named "MyTask" that runs a PowerShell script at system startup. The task is configured to replace any existing task with the same name, and it will run with the highest privileges.
+
+To quickly schedule the script, the `-ScriptPath` parameter is utilized, which allows you to supply the path to the .ps1 file. This parameter provides a simple and efficient method for scheduling PowerShell scripts.
 
 ### Example 2: Deploying a complex PowerShell script
 ```powershell
-New-OHScheduledTask -TaskName "MyTask" -TaskDescription "Runs a PowerShell script with lots of arguments." -Trigger AtStartup -AllowedUser 'NT AUTHORITY\SYSTEM' -Program "C:\Windows\System32\WindowsPowerShell\v1.0\PowerShell.exe" -Arguments '-noprofile -executionpolicy bypass -command "& { . c:\ohtemp\test2.ps1; Show-Text -textToDisplay "Important Text!" }' -Action add -RunWithHighestPrivilege
+New-OHScheduledTask -TaskName "MyTask" -TaskDescription "Runs a PowerShell script with lots of arguments." -Trigger AtStartup -AllowedUser 'NT AUTHORITY\SYSTEM' -Program "C:\Windows\System32\WindowsPowerShell\v1.0\PowerShell.exe" -Arguments '-noprofile -executionpolicy bypass -command "& { . c:\ohtemp\test2.ps1; Show-Text -textToDisplay "Important Text!" }' -Action Add -RunWithHighestPrivilege
 ```
-This example creates a new scheduled task named "MyTask" that runs a PowerShell script with lots of arguments, at system startup. The task is set to add a new task as long as the task name does not already exist, and it will run with the highest privileges. The PowerShell script in this example displays the text "Important Text!" using the Show-Text function contained in the script.
+This example demonstrates how to create a new scheduled task named "MyTask" that runs a PowerShell script with multiple arguments at system startup. To ensure that the task is added only if the task name does not already exist, it is configured with the `-Action Add` parameter. Additionally, the task is set to run with the highest privileges.
+
+In the PowerShell script used in this example, the "Show-Text" function is utilized to display the message "Important Text!". This function is contained within the script Test2.ps1 and can be executed using the -Program parameter.
+
+Using the -Program parameter allows you to schedule executables and is particularly useful for scheduling more complex PowerShell scripts like the one used in this example, where a function with parameters is executed from the script.
 
 ### Example 3: Deleting a Scheduled Task
 ```powershell
