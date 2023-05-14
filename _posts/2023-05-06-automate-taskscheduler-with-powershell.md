@@ -12,7 +12,6 @@ Automating repetitive tasks is essential for many IT professionals and system ad
 
 The `New-OHScheduledTask` function is a PowerShell cmdlet that creates a new scheduled task. It is a powerful tool that can help you automate a wide range of tasks, from running PowerShell scripts to launching applications and running batch files.
 
-
 ## How to Use New-OHScheduledTask
 
 To create a new scheduled task using the `New-OHScheduledTask` function, you first need to specify the task's properties, such as the task name, the program or script to run, and the schedule for running the task. The  function has been optimmised to quickly schedule PowerShell scripts although it can just as easily schedule an exe. As I use it in my workplace primarily for Powershell, I'll focus the examples on that:
@@ -36,6 +35,25 @@ This example creates a new scheduled task named "MyTask" that runs a PowerShell 
 New-OHScheduledTask -TaskName "MyTask" -Delete
 ```
 This example deletes the task named, "MyTask" if it exists.
+
+## Parameters
+
+`New-OHScheduledTask` is highly cusomisable and has the following parameters:
+
+- **TaskName**: The name of the scheduled task.
+- **TaskDescription**: A description of the scheduled task.
+- **Trigger**: The trigger for the scheduled task. The accepted values are AtLogon and AtStartup.
+- **AllowedUser**: The user account that is allowed to run the scheduled task. The accepted values are BUILTIN\Users and NT AUTHORITY\SYSTEM.
+- **ScriptPath**: The path to the PowerShell script that the scheduled task runs. This parameter is mandatory if the parameter set name is Script.
+- **Program**: The path to the program that the scheduled task runs. This parameter is mandatory if the parameter set name is Program.
+- **Arguments**: Specifies the arguments that the program uses. This parameter is optional.
+- **StartIn**: Specifies the starting directory for the program. This parameter is optional.
+- **Action**: Specifies the action for the scheduled task. The accepted values are add and replace.
+- **DelayTask**: Specifies the delay time for the scheduled task. The accepted values are 30s, 1m, 30m, and 1h. This parameter is optional.
+- **TaskFolder**: Specifies the folder for the scheduled task. The default value is OHTesting.
+- **RunWithHighestPrivilege**: Runs the scheduled task with the highest privileges. This parameter is optional.
+- **StartTaskImmediately**: Starts the scheduled task immediately. This parameter is optional.
+- **Delete**: Deletes the scheduled task. This parameter is optional.
 
 ## Conclusion
 
