@@ -14,7 +14,7 @@ The `New-OHScheduledTask` function is a PowerShell cmdlet that creates a new sch
 
 ## How to Use New-OHScheduledTask
 
-To create a new scheduled task using the `New-OHScheduledTask` function, you first need to specify the task's properties, such as the task name, the program or script to run, and the schedule for running the task. The  function has been optimmised to quickly schedule PowerShell scripts although it can just as easily schedule an exe. As I use it in my workplace primarily for Powershell, I'll focus the examples on that:
+To create a new scheduled task using the `New-OHScheduledTask` function, you first need to specify the task's properties, such as the task name, the program or script to run, and the schedule for running the task. The  function has been optimised to quickly schedule PowerShell scripts although it can just as easily schedule an exe. As I use it in my workplace primarily for Powershell, I'll focus the examples on that:
 
 ### Example 1: Deploying a simple PowerShell script
 
