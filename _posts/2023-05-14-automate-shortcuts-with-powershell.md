@@ -13,6 +13,8 @@ If you're a Windows user, chances are you use shortcuts to quickly access your f
 
 New-OHShortcut is a PowerShell function that creates or deletes a shortcut to a specified item on the desktop and/or start menu. It uses Windows Script Host to create the shortcut file, which is a convenient and reliable way to create shortcuts on Windows.
 
+The function is fully equipped for deployment using any deployment software, such as Intune or ConfigMgr, utilizing the system account: by default, it generates shortcuts on the public desktop. However, if you desire the shortcut to be positioned on the desktop of the currently logged-in user, simply incorporate the "-UseLoggedInUsersDesktop" switch while invoking the function.
+
 ## How to Use New-OHShortcut
 
 Using New-OHShortcut is easy. Here's a quick guide to get you started:
