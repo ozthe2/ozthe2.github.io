@@ -3,7 +3,7 @@ layout: post
 title:  "How to Automate Registry-Related Tasks with Set-OHRegistry PowerShell Function"
 date:   2023-04-30 09:00:00 +0000
 categories: powershell
-tags: [powershell, registry]
+tags: [powershell,registry]
 ---
 
 At work, I needed to write a PowerShell function that would modify the Windows registry by creating, replacing, or deleting a specified registry key value. After some development and testing, I created a function called "Set-OHRegistry," which takes five parameters to complete the required task.

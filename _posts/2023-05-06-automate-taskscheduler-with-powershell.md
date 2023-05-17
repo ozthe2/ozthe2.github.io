@@ -3,7 +3,7 @@ layout: post
 title:  "Schedule PowerShell scripts with ease using New-OHScheduledTask function"
 date:   2023-05-06 08:00:00 +0000
 categories: powershell
-tags: [powershell, taskscheduler]
+tags: [powershell,taskscheduler]
 ---
 
 Automating repetitive tasks is essential for many IT professionals and system administrators. One of the most useful tools for automating tasks on a Windows machine is PowerShell. However, scheduling PowerShell scripts to run at specific times can be a bit of a challenge. Fortunately, there is a solution: the `New-OHScheduledTask` function.
