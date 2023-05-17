@@ -2,7 +2,7 @@
 layout: post
 title:  "Schedule PowerShell scripts with ease using New-OHScheduledTask function"
 date:   2023-05-06 08:00:00 +0000
-categories: powershell
+categories: PowerShell
 tags: [powershell,taskscheduler]
 ---
 

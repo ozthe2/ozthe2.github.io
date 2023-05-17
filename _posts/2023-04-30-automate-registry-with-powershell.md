@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Automate Registry-Related Tasks with Set-OHRegistry PowerShell Function"
 date:   2023-04-30 09:00:00 +0000
-categories: powershell
+categories: PowerShell
 tags: [powershell,registry]
 ---
 

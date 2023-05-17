@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding Microsoft Intune: Deploying Applications Using PowerShell"
 date:   2023-04-21 19:00:00 +0000
-categories: intune
+categories: Intune
 tags: [intune,powershell,book]
 ---
 

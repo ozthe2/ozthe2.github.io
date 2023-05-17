@@ -2,7 +2,7 @@
 layout: post
 title:  "Function New-OHShortcut: Create and Manage Shortcuts with PowerShell"
 date:   2023-05-14 08:00:00 +0000
-categories: powershell
+categories: PowerShell
 tags: [powershell,shortcuts]
 ---
 
