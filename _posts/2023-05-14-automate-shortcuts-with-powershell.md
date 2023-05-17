@@ -63,6 +63,24 @@ New-OHShortcut -ShortcutName "MyApp" -DeleteLocation Both
 ```
 This command deletes the shortcut to MyApp on the desktop and in the Start menu.
 
+## Parameter Breakdown
+
+Let's dive into a detailed breakdown of the function's full set of parameters. 
+
+- **ShortcutName**: Specifies the name of the shortcut.
+- **TargetPath**: Specifies the path of the item that the shortcut opens.
+- **WorkingDirectory**: Specifies the working directory for the target. (Optional)
+- **IconLocation**: Specifies the location of the icon for the shortcut. (Optional)
+- **WindowsStyle**: Specifies the window style for the shortcut. Valid values are 3, 7, and 4. (Default: 7)
+- **AddLocation**: Specifies the location where the shortcut will be added. Valid options are Desktop, StartMenu, or Both.
+- **ReplaceLocation**: Specifies the location of the shortcut to replace. Valid options are Desktop, StartMenu, or Both.
+- **DeleteLocation**: Specifies the location of the shortcut to delete. Valid options are Desktop, StartMenu, or Both.
+- **Arguments**: Specifies the arguments to use when opening the target. (Optional)
+- **UseLoggedInUsersDesktop**: Includes this switch if you want to position the shortcut on the desktop of the currently logged-in user.
+- **UseLoggedInUsersStartMenu**: Includes this switch if you want to add the shortcut to the logged-in user's start menu.
+
+Please note that for the parameters *WorkingDirectory*, *IconLocation*, *Arguments*, and the switches *UseLoggedInUsersDesktop* and *UseLoggedInUsersStartMenu*, they are optional and have default behavior unless specified.
+
 ## Final Thoughts
 
 *New-OHShortcut* is a powerful PowerShell function that simplifies the process of creating and managing shortcuts on Windows. Whether you need to create a new shortcut, replace an existing one, or delete a shortcut, New-OHShortcut has got you covered. Give it a try, and see how it can improve your productivity! Find it in my github repo here: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHShortcut.ps1
