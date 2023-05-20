@@ -83,7 +83,7 @@ Please note that for the parameters *WorkingDirectory*, *IconLocation*, *Argumen
 
 ## Final Thoughts
 
-*New-OHShortcut* is a powerful PowerShell function that simplifies the process of creating and managing shortcuts on Windows. Whether you need to create a new shortcut, replace an existing one, or delete a shortcut, New-OHShortcut has got you covered. Give it a try, and see how it can improve your productivity! Find it in my github repo here: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHShortcut.ps1
+*New-OHShortcut* is a powerful PowerShell function that simplifies the process of creating and managing shortcuts on Windows. Whether you need to create a new shortcut, replace an existing one, or delete a shortcut, New-OHShortcut has got you covered. Give it a try, and see how it can improve your productivity! Find it in my github repo here: https://github.com/ozthe2/MyPowerShell/blob/main/New-OHShortcut.ps1 And if it's all a bit too much for you, I have followed PowerShell best practice (where a function should only do one thing) and broken them down into seperate functions here: https://github.com/ozthe2/MyPowerShell/tree/main/Shortcuts
 
 ---
 
