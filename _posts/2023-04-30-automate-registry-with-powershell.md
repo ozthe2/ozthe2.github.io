@@ -49,6 +49,8 @@ One way you may wish to improve the function is to use Write-Verbose instead of 
 
 However, for my work task, I required Write-Host. Additionally, the function could be further improved by using a ValidateSet for the action type. For my requirements though, I needed to ensure that a terminating error was not produced if an incorrect action type was entered so chose to add it as the default option in the switch.  I've left the 'validateset' in the parameter but commented it out in case you prefer it.  Just uncomment it and then remove the whole 'default' line in the switch.
 
+And if my "mega-all-in-one-function" is all a bit too much, you can use the PowerShell best practice versions [here](https://fearthepanda.com/powershell/2023/06/04/automate-registry-with-powershell_pt2/) instead.
+
 ## Conclusion
 
 Overall, the Set-OHRegistry PowerShell function is a useful tool for modifying the Windows registry. While it could be improved in certain ways, it is a solid solution for those looking to automate registry-related tasks. The script is available on my GitHub repository: https://github.com/ozthe2/MyPowerShell/blob/main/Modify-OHRegistry.ps1
