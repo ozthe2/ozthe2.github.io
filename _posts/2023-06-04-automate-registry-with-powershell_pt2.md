@@ -68,6 +68,8 @@ In this command, we remove the registry value named "TestValue" from the key
 
 PowerShell empowers system administrators and IT professionals to simplify the management of the Windows Registry. With the `New-OHRegistryKey`, `Set-OHRegistryKey`, and `Remove-OHRegistryKey` functions, you can effortlessly create, modify, and remove registry keys and values. These functions provide error handling, ensuring a smooth and reliable experience when working with the Registry in PowerShell.
 
+You can get the functions from my github repo here: https://github.com/ozthe2/MyPowerShell/tree/main/Registry
+
 Harness the power of PowerShell and streamline your Windows Registry management today!
 
 ---
